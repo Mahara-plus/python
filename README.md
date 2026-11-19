@@ -1,28 +1,33 @@
-# PY RIDDLE QUEST v2
+# 🎮 Code Quest — لعبة ألغاز برمجية (بايثون)
 
-لعبة ألغاز عربية ببايثون وKivy.
+لعبة أسئلة وألغاز **برمجية فقط بلغة بايثون** بتصميم يشبه محرر الأكواد الداكن مع إضاءة نيون.
 
-- 500 سؤال موزعة على 5 أقسام: رياضيات، ذكاء ومنطق، Python، ألغاز عامة، أنماط وأرقام.
-- 4 مستويات: سهل، متوسط، صعب، مستحيل.
-- اختيار القسم والصعوبة، و10 أسئلة في الجولة.
-- مؤقت 30/25/20/15 ثانية حسب الصعوبة.
-- نقاط أعلى للأسئلة الأصعب ومكافأة للسرعة.
-- تلميحات، حفظ أفضل نتيجة محلياً، أصوات، وانتقالات متحركة.
+![Logo](assets/logo.png)
 
-## التشغيل على الكمبيوتر
-`pip install kivy` ثم `python main.py`
+## ✨ المميزات
+- 🔹 20 سؤالاً برمجياً بحت (بايثون فقط): مفاهيم، Output، أخطاء شائعة
+- 🔹 مؤقت 30 ثانية لكل سؤار + نقاط وإحصائيات
+- 🔹 تصميم Code Editor داكن مع إضاءة Neon أخضر/سماوي
+- 🔹 حفظ أفضل نتيجة تلقائياً
+- 🔹 لغة الواجهة: العربية (الأسئلة تقنية بالمصطلح الأصلي)
 
-## بناء APK عبر GitHub
-1. ارفع كل محتويات المشروع إلى مستودع GitHub على الفرع main.
-2. افتح Actions وشغّل Build Android APK.
-3. بعد نجاح البناء، نزّل Artifact باسم PyRiddleQuest-APK-v2 وفك ضغطه لتحصل على APK.
+## 🚀 كيف أحصل على ملف APK؟
+أسهل طريقة (بدون تثبيت شيء على جهازك):
 
-الناتج Debug للتجربة وليس إصدار Release موقعاً للنشر على Google Play.
+1. أنشئ مستودعاً جديداً على GitHub وارفع هذه الملفات إليه
+2. اذهب إلى تبويب **Actions** → ستجد workflow باسم **Build APK** يعمل تلقائياً
+3. بعد ~20-30 دقيقة، حمّل ملف APK من قسم **Artifacts** (اسمه `codequest-apk`)
+4. انسخ APK إلى هاتفك وثبّته (فعّل تثبيت التطبيقات من مصادر غير معروفة)
 
+## 🛠️ البناء المحلي (اختياري)
+```bash
+sudo apt install openjdk-17-jdk unzip
+pip install --user buildozer cython==0.29.36
+buildozer android debug   # يُنتج bin/codequest-1.0-arm64-v8a-debug.apk
+```
 
-## App icon
-The Android launcher icon is `assets/icon.png`. It is configured in `buildozer.spec` and included in the APK during the GitHub Actions build.
+## 🐍 التقنيات
+Kivy + Python 3 — بناء APK عبر Buildozer/p4a، وبناء تلقائي عبر GitHub Actions.
 
-
-## Programming challenge content
-The question bank contains 500 programming-focused challenges across Python, JavaScript, SQL, HTML/CSS, and secure coding. It no longer includes general-life riddles or arithmetic brain teasers.
+## 📝 الترخيص
+MIT — حر الاستخدام والتعديل.

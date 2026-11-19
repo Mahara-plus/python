@@ -1,133 +1,311 @@
-import json, random, os, re
+# -*- coding: utf-8 -*-
+"""
+CODE QUEST - لعبة ألغاز برمجية (بايثون فقط)
+تصميم بأسلوب Code Editor داكن مع إضاءة Neon
+"""
 from kivy.app import App
-from kivy.clock import Clock
-from kivy.animation import Animation
-from kivy.core.window import Window
-from kivy.core.audio import SoundLoader
-from kivy.metrics import dp
+from kivy.uix.screenmanager import Screen, ScreenManager
 from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.gridlayout import GridLayout
+from kivy.uix.scrollview import ScrollView
 from kivy.uix.label import Label
 from kivy.uix.button import Button
-from kivy.uix.textinput import TextInput
+from kivy.uix.image import Image
 from kivy.uix.progressbar import ProgressBar
-from kivy.graphics import Color, RoundedRectangle
+from kivy.clock import Clock
+from kivy.core.window import Window
+from kivy.graphics import Color, RoundedRectangle, Line
+from kivy.utils import get_color_from_hex
+from kivy.metrics import dp
+from questions import QUESTIONS
+import random
 
-Window.clearcolor=(.025,.04,.07,1)
-CYAN=(0,.84,.96,1); GREEN=(.20,.91,.59,1); WHITE=(.91,.95,1,1)
-MUTED=(.48,.62,.72,1); PANEL=(.055,.085,.14,1); ORANGE=(1,.69,.28,1)
-DIFFS=["سهل","متوسط","صعب","مستحيل"]
-CATEGORIES=["الكل","Python","JavaScript","SQL","HTML/CSS","الأمن السيبراني البرمجي"]
-TIMES={"سهل":30,"متوسط":25,"صعب":20,"مستحيل":15}
-POINTS={"سهل":10,"متوسط":20,"صعب":30,"مستحيل":50}
-def norm(s):
-    s=str(s).strip().lower()
-    for a,b in [("أ","ا"),("إ","ا"),("آ","ا"),("ى","ي"),("ة","ه"),("ـ","")]: s=s.replace(a,b)
-    return re.sub(r"\s+","",s)
-class Panel(BoxLayout):
-    def __init__(self,**kw):
-        super().__init__(**kw)
+# ---------- Palette (Code Editor Theme) ----------
+BG        = get_color_from_hex("#0D1117")   # خلفية داكنة
+SURFACE   = get_color_from_hex("#161B22")   # بطاقات
+BORDER    = get_color_from_hex("#30363D")
+GREEN     = get_color_from_hex("#39FF14")   # نيون أخضر
+CYAN      = get_color_from_hex("#00E5FF")
+PURPLE    = get_color_from_hex("#BC8CF2")
+RED       = get_color_from_hex("#FF5555")
+WHITE     = get_color_from_hex("#F0F6FC")
+GRAY      = get_color_from_hex("#8B949E")
+
+Window.clearcolor = BG
+
+
+def neon_button(text, color=GREEN, font_size=20):
+    btn = Button(
+        text=text, font_size=dp(font_size), bold=True,
+        background_normal="", background_color=(0, 0, 0, 0),
+        color=WHITE, size_hint_y=None, height=dp(60),
+    )
+    def draw_bg(*a):
+        btn.canvas.before.clear()
+        with btn.canvas.before:
+            Color(*color[:3], 0.25)
+            RoundedRectangle(pos=btn.pos, size=btn.size, radius=[12])
+            Color(*color)
+            Line(rounded_rectangle=(btn.x, btn.y, btn.width, btn.height, 12), width=1.6)
+    btn.bind(pos=lambda *a: draw_bg(), size=lambda *a: draw_bg())
+    draw_bg()
+    return btn
+
+
+class CodeCard(BoxLayout):
+    """بطاقة كود بإطار Neon"""
+    def __init__(self, code_text, color=GREEN, **kw):
+        super().__init__(orientation="vertical", size_hint_y=None, padding=dp(12), spacing=dp(6), **kw)
+        self.code_text = code_text
+        self.color = color
+        self.bind(minimum_height=self.setter("height"))
+        self.header = Label(
+            text="[color=#8B949E]  ● ● ●  python_snippet.py[/color]",
+            markup=True, size_hint_y=None, height=dp(26),
+            font_size=dp(13), halign="left", valign="middle",
+        )
+        self.code = Label(
+            text=code_text, font_name="RobotoMono-Regular.ttf",
+            size_hint_y=None, font_size=dp(16),
+            color=WHITE, halign="left", valign="top",
+            padding=(dp(10), dp(8)),
+        )
+        self.code.bind(texture_size=self._fit)
+        self.add_widget(self.header)
+        self.add_widget(self.code)
+
+    def _fit(self, *a):
+        self.code.height = self.code.texture_size[1] + dp(16)
+        self.height = self.code.height + self.header.height + dp(30)
+
+    def on_size(self, *a):
+        self.canvas.before.clear()
         with self.canvas.before:
-            Color(*PANEL); self.rect=RoundedRectangle(pos=self.pos,size=self.size,radius=[dp(18)])
-        self.bind(pos=self.sync,size=self.sync)
-    def sync(self,*_): self.rect.pos=self.pos; self.rect.size=self.size
-class RiddleQuest(App):
-    def build(self):
-        self.title="CODE QUEST"; self.questions=json.load(open(os.path.join(os.path.dirname(__file__),"questions.json"),encoding="utf-8"))
-        self.best=0; self.sound_on=True; self.timer_event=None; self.load_best()
-        self.root=BoxLayout(orientation="vertical",padding=dp(16),spacing=dp(10))
-        row=BoxLayout(size_hint_y=None,height=dp(58)); brand=BoxLayout(orientation="vertical")
-        brand.add_widget(Label(text="[b]CODE_QUEST[/b]",markup=True,color=CYAN,font_size="23sp",halign="left"))
-        brand.add_widget(Label(text="CODE / DEBUG / BUILD",color=MUTED,font_size="10sp",halign="left"))
-        row.add_widget(brand); self.best_lbl=Label(text=f"BEST {self.best}",color=GREEN,bold=True,size_hint_x=.35); row.add_widget(self.best_lbl)
-        self.root.add_widget(row); self.progress=ProgressBar(max=10,size_hint_y=None,height=dp(5)); self.root.add_widget(self.progress)
-        self.body=Panel(orientation="vertical",padding=dp(14),spacing=dp(9)); self.root.add_widget(self.body)
-        self.status=Label(text="SYSTEM ONLINE // PROGRAMMING CHALLENGE ENGINE",color=MUTED,size_hint_y=None,height=dp(22),font_size="9sp"); self.root.add_widget(self.status)
-        self.home(); return self.root
-    def load_best(self):
-        try: self.best=json.load(open(os.path.join(self.user_data_dir,"record.json"),encoding="utf-8")).get("best",0)
-        except: self.best=0
-    def save_best(self):
-        os.makedirs(self.user_data_dir,exist_ok=True)
-        json.dump({"best":self.best},open(os.path.join(self.user_data_dir,"record.json"),"w",encoding="utf-8"))
-    def clear(self):
-        if self.timer_event: self.timer_event.cancel(); self.timer_event=None
-        self.body.clear_widgets()
-    def lbl(self,t,size=15,c=WHITE,b=False,h=None):
-        x=Label(text=t,color=c,font_size=f"{size}sp",bold=b,halign="center",valign="middle")
-        if h: x.size_hint_y=None; x.height=dp(h)
-        return x
-    def btn(self,t,fn,c=(.12,.22,.34,1),h=45):
-        x=Button(text=t,size_hint_y=None,height=dp(h),background_normal="",background_color=c,color=WHITE,bold=True)
-        x.bind(on_release=lambda *_:fn()); return x
-    def home(self):
-        self.clear(); self.body.add_widget(self.lbl("مرحباً بك في تحديات البرمجة",22,CYAN,True,48))
-        self.body.add_widget(self.lbl("500 تحدٍ برمجي • 5 مسارات تقنية • 4 مستويات",13,MUTED,False,30))
-        self.body.add_widget(self.lbl(f"أفضل نتيجة محفوظة: {self.best}",15,GREEN,True,32))
-        self.body.add_widget(self.lbl("اختر مسار البرمجة",15,WHITE,True,26))
-        for cat in CATEGORIES: self.body.add_widget(self.btn(cat,lambda c=cat:self.select_category(c),(.09,.17,.26,1),40))
-        self.body.add_widget(self.btn("الصوت: "+("تشغيل 🔊" if self.sound_on else "إيقاف 🔇"),self.toggle_sound))
-    def select_category(self,cat):
-        self.category=cat; self.clear(); self.body.add_widget(self.lbl("حدد مستوى الصعوبة",22,CYAN,True,50))
-        for d in ["الكل"]+DIFFS: self.body.add_widget(self.btn(d,lambda x=d:self.start_game(x),(.09,.17,.26,1),50))
-        self.body.add_widget(self.btn("رجوع",self.home))
-    def toggle_sound(self): self.sound_on=not self.sound_on; self.home()
-    def sound(self,kind):
-        if not self.sound_on: return
-        try:
-            s=SoundLoader.load(os.path.join(os.path.dirname(__file__),"assets",kind+".wav"))
-            if s: s.play()
-        except: pass
-    def start_game(self,diff):
-        self.difficulty=diff
-        pool=[q for q in self.questions if (self.category=="الكل" or q["category"]==self.category) and (diff=="الكل" or q["difficulty"]==diff)]
-        random.shuffle(pool); self.deck=pool[:10]; self.index=0; self.score=0; self.hints=2; self.correct=0
-        self.progress.max=len(self.deck); self.progress.value=0; self.show_question()
-    def show_question(self):
-        if self.index>=len(self.deck): return self.finish()
-        self.clear(); self.current=self.deck[self.index]
-        self.body.add_widget(self.lbl(f"// CHALLENGE {self.index+1:02d}/{len(self.deck):02d}",12,CYAN,True,26))
-        self.body.add_widget(self.lbl(self.current["category"]+" • "+self.current["difficulty"],13,ORANGE,True,28))
-        self.timer_lbl=self.lbl("",19,ORANGE,True,30); self.body.add_widget(self.timer_lbl)
-        self.body.add_widget(self.lbl(self.current["question"],18,WHITE,True))
-        self.entry=TextInput(hint_text="اكتب ناتج الكود أو الإجابة البرمجية...",multiline=False,size_hint_y=None,height=dp(50),font_size="17sp",
-            background_normal="",background_active="",background_color=(.09,.14,.21,1),foreground_color=WHITE,cursor_color=CYAN)
-        self.entry.bind(on_text_validate=lambda *_:self.check()); self.body.add_widget(self.entry)
-        row=BoxLayout(size_hint_y=None,height=dp(46),spacing=dp(8))
-        row.add_widget(self.btn("تحقق",self.check,CYAN,46)); row.add_widget(self.btn("تلميح",self.hint,(.16,.27,.40,1),46)); self.body.add_widget(row)
-        self.feedback=self.lbl("حل التحدي البرمجي قبل انتهاء الوقت.",12,MUTED,False,34); self.body.add_widget(self.feedback)
-        self.stats=self.lbl("",12,GREEN,True,26); self.body.add_widget(self.stats); self.refresh_stats()
-        self.remaining=TIMES[self.current["difficulty"]]; self.update_timer()
-        self.timer_event=Clock.schedule_interval(self.tick,1)
-        self.body.opacity=0; Animation(opacity=1,duration=.25).start(self.body)
-    def refresh_stats(self): self.stats.text=f"النقاط: {self.score}    التلميحات: {self.hints}"
-    def update_timer(self): self.timer_lbl.text=f"⏱ {self.remaining} ثانية"
-    def tick(self,dt):
-        self.remaining-=1; self.update_timer()
-        if self.remaining<=0:
-            self.timer_event.cancel(); self.timer_event=None
-            self.feedback.text="انتهى الوقت! الإجابة: "+self.current["answers"][0]; self.feedback.color=ORANGE
-            Clock.schedule_once(self.advance,2)
-    def check(self):
-        if not self.entry.text.strip(): self.feedback.text="اكتب إجابة أولاً."; return
-        if norm(self.entry.text) in [norm(a) for a in self.current["answers"]]:
-            if self.timer_event: self.timer_event.cancel(); self.timer_event=None
-            gained=POINTS[self.current["difficulty"]]+max(0,self.remaining//5)
-            self.score+=gained; self.correct+=1; self.sound("correct")
-            self.feedback.text=f"✓ إجابة صحيحة! +{gained} نقطة"; self.feedback.color=GREEN
-            self.refresh_stats(); Clock.schedule_once(self.advance,1.1)
+            Color(*SURFACE)
+            RoundedRectangle(pos=self.pos, size=self.size, radius=[14])
+            Color(*self.color)
+            Line(rounded_rectangle=(self.x, self.y, self.width, self.height, 14), width=1.8)
+
+
+class MenuScreen(Screen):
+    def __init__(self, **kw):
+        super().__init__(**kw)
+        root = BoxLayout(orientation="vertical", padding=dp(20), spacing=dp(14))
+        root.add_widget(Image(source="assets/logo.png", size_hint_y=0.42, allow_stretch=True, keep_ratio=True))
+
+        title = Label(text="[b][color=#00E5FF]CODE[/color] [color=#F0F6FC]QUEST[/color][/b]",
+                      markup=True, font_size=dp(38), size_hint_y=None, height=dp(60))
+        sub = Label(text="[color=#8B949E]ألغاز برمجية بلغة بايثون فقط[/color]", markup=True,
+                    font_size=dp(17), size_hint_y=None, height=dp(40))
+        root.add_widget(title); root.add_widget(sub)
+
+        stats = App.get_running_app().stats
+        self.best = Label(text=f"[color=#39FF14]★ أفضل نتيجة: {stats['best']} / {len(QUESTIONS)}[/color]",
+                          markup=True, font_size=dp(16), size_hint_y=None, height=dp(36))
+        root.add_widget(self.best)
+
+        start = neon_button("▶  ابدأ اللعب", GREEN, 22)
+        start.bind(on_release=lambda *a: setattr(self.manager, "current", "quiz"))
+        root.add_widget(start)
+
+        how = neon_button("؟  طريقة اللعب", CYAN, 18)
+        how.bind(on_release=lambda *a: setattr(self.manager, "current", "howto"))
+        root.add_widget(how)
+        self.add_widget(root)
+
+
+class HowToScreen(Screen):
+    def __init__(self, **kw):
+        super().__init__(**kw)
+        root = BoxLayout(orientation="vertical", padding=dp(20), spacing=dp(14))
+        root.add_widget(Label(text="[b][color=#00E5FF]طريقة اللعب[/color][/b]", markup=True,
+                              font_size=dp(28), size_hint_y=None, height=dp(70)))
+        txt = ("• لديك [color=#39FF14]20 سؤالاً[/color] برمجياً بلغة بايثون\n"
+               "• مع كل سؤال [color=#00E5FF]30 ثانية[/color] فقط!\n"
+               "• اختر الإجابة الصحيحة من 4 خيارات\n"
+               "• الإجابة الصحيحة تمنحك [color=#39FF14]+10 نقاط[/color]\n"
+               "• حاول تحقيق العلامة الكاملة!\n\n"
+               "[color=#BC8CF2]# التعليقات داخل الكود قد تحمل تلميحات ;)[/color]")
+        card = CodeCard(txt, PURPLE)
+        scroll = ScrollView(); scroll.add_widget(card)
+        root.add_widget(scroll)
+        back = neon_button("← رجوع", RED, 18)
+        back.bind(on_release=lambda *a: setattr(self.manager, "current", "menu"))
+        root.add_widget(back)
+        self.add_widget(root)
+
+
+class QuizScreen(Screen):
+    TIME_LIMIT = 30
+
+    def on_enter(self):
+        self.order = random.sample(range(len(QUESTIONS)), len(QUESTIONS))
+        self.idx = 0
+        self.score = 0
+        self.correct = 0
+        self._build_question()
+
+    def _build_question(self):
+        self.clear_widgets()
+        self.time_left = self.TIME_LIMIT
+        q = QUESTIONS[self.order[self.idx]]
+
+        root = BoxLayout(orientation="vertical", padding=dp(16), spacing=dp(12))
+
+        top = BoxLayout(size_hint_y=None, height=dp(40), spacing=dp(10))
+        top.add_widget(Label(text=f"[color=#8B949E]سؤال {self.idx+1}/{len(QUESTIONS)}[/color]",
+                             markup=True, font_size=dp(16)))
+        self.timer_lbl = Label(text="", markup=True, font_size=dp(16),
+                               size_hint_x=None, width=dp(120))
+        top.add_widget(self.timer_lbl)
+        root.add_widget(top)
+
+        self.bar = ProgressBar(max=self.TIME_LIMIT, value=self.TIME_LEFT,
+                               size_hint_y=None, height=dp(8))
+        root.add_widget(self.bar)
+
+        self.score_lbl = Label(text=f"[color=#39FF14]النقاط: {self.score}[/color]",
+                               markup=True, font_size=dp(16), size_hint_y=None, height=dp(32))
+        root.add_widget(self.score_lbl)
+
+        body = ScrollView()
+        col = BoxLayout(orientation="vertical", size_hint_y=None, spacing=dp(10), padding=dp(4))
+        col.bind(minimum_height=col.setter("height"))
+        col.add_widget(CodeCard(q["code"], GREEN if q.get("hint") is None else CYAN))
+        qtext = Label(text=f"[b]{q['q']}[/b]", markup=True, font_size=dp(18),
+                      color=WHITE, size_hint_y=None, halign="right", valign="middle",
+                      text_size=(Window.width - dp(60), None), padding=(dp(6), dp(10)))
+        qtext.bind(texture_size=lambda *a: setattr(qtext, "height", qtext.texture_size[1] + dp(10)))
+        col.add_widget(qtext)
+        body.add_widget(col)
+        root.add_widget(body)
+
+        grid = GridLayout(cols=2, spacing=dp(10), size_hint_y=None, height=dp(150))
+        self.ans_btns = []
+        opts = list(q["options"]); random.shuffle(opts)
+        for opt in opts:
+            btn = neon_button(opt, GREEN, 16)
+            btn.height = dp(64)
+            btn.bind(on_release=self._choose)
+            self.ans_btns.append(btn)
+            grid.add_widget(btn)
+        root.add_widget(grid)
+        self.add_widget(root)
+        self._update_timer()
+        self._ev = Clock.schedule_interval(self._tick, 1)
+
+    def _update_timer(self):
+        color = "#39FF14" if self.time_left > 10 else "#FF5555"
+        self.timer_lbl.text = f"[color={color}]⏱ {self.time_left}s[/color]"
+        self.bar.value = self.time_left
+
+    def _tick(self, dt):
+        self.time_left -= 1
+        if self.time_left <= 0:
+            self._ev.cancel()
+            self._reveal(None)
+            return
+        self._update_timer()
+
+    def _choose(self, btn):
+        self._ev.cancel()
+        self._reveal(btn.text)
+
+    def _reveal(self, chosen):
+        q = QUESTIONS[self.order[self.idx]]
+        ok = (chosen == q["answer"])
+        if ok:
+            self.score += 10
+            self.correct += 1
+        for b in self.ans_btns:
+            b.disabled = True
+            if b.text == q["answer"]:
+                b.background_color = (*GREEN, 1)
+        popup = BoxLayout(orientation="vertical", padding=dp(20), spacing=dp(12))
+        res = ("[color=#39FF14][b]✔ إجابة صحيحة! +10[/b][/color]" if ok
+               else f"[color=#FF5555][b]✘ خطأ! الصحيح:[/b][/color]\n[color=#39FF14]{q['answer']}[/color]")
+        if q.get("explain"):
+            res += f"\n\n[color=#8B949E]# {q['explain']}[/color]"
+        lbl = Label(text=res, markup=True, font_size=dp(18), halign="center", valign="middle",
+                    text_size=(Window.width - dp(80), None))
+        lbl.bind(texture_size=lambda *a: setattr(lbl, "height", lbl.texture_size[1]))
+        popup.add_widget(lbl)
+        nxt = neon_button("التالي ←" if self.idx < len(QUESTIONS)-1 else "النتيجة ←", CYAN, 18)
+        nxt.bind(on_release=self._next)
+        popup.add_widget(nxt)
+        self.clear_widgets()
+        s = BoxLayout(orientation="vertical", padding=dp(24))
+        s.add_widget(popup)
+        self.add_widget(s)
+
+    def _next(self, *a):
+        self.idx += 1
+        if self.idx >= len(QUESTIONS):
+            app = App.get_running_app()
+            app.stats["best"] = max(app.stats["best"], self.correct)
+            app.save_stats()
+            self.manager.get_screen("result").set_result(self.correct, self.score)
+            self.manager.current = "result"
         else:
-            self.sound("wrong"); self.feedback.text="✕ إجابة غير صحيحة، حاول مرة أخرى."; self.feedback.color=(1,.38,.42,1)
-    def hint(self):
-        if self.hints<=0: self.feedback.text="انتهت التلميحات."; return
-        self.hints-=1; self.feedback.text="تلميح: "+self.current["hint"]; self.feedback.color=ORANGE; self.refresh_stats()
-    def advance(self,*_): self.index+=1; self.progress.value=self.index; self.show_question()
-    def finish(self):
-        self.clear()
-        if self.score>self.best: self.best=self.score; self.save_best(); self.best_lbl.text=f"BEST {self.best}"
-        self.body.add_widget(self.lbl("CODING RUN COMPLETE",23,GREEN,True,55))
-        self.body.add_widget(self.lbl(f"نتيجتك: {self.score} نقطة",24,WHITE,True,55))
-        self.body.add_widget(self.lbl(f"إجابات صحيحة: {self.correct}/{len(self.deck)}",15,CYAN,True,38))
-        self.body.add_widget(self.lbl(f"أفضل نتيجة: {self.best}",15,GREEN,True,38))
-        self.body.add_widget(self.btn("إعادة اللعب",lambda:self.start_game(self.difficulty),CYAN,50))
-        self.body.add_widget(self.btn("القائمة الرئيسية",self.home,(.12,.22,.34,1),46))
-if __name__=="__main__": RiddleQuest().run()
+            self._build_question()
+
+
+class ResultScreen(Screen):
+    def set_result(self, correct, score):
+        self.clear_widgets()
+        total = len(QUESTIONS)
+        pct = correct / total
+        if pct == 1:   msg, col = "🏆 عبقري بايثون! علامة كاملة!", GREEN
+        elif pct >= .7: msg, col = "🔥 ممتاز! مستوى Senior", CYAN
+        elif pct >= .5: msg, col = "💪 جيد جداً! واصل التقدم", PURPLE
+        else:           msg, col = "📚 راجع أساسيات بايثون وحاول مجدداً", RED
+
+        root = BoxLayout(orientation="vertical", padding=dp(24), spacing=dp(14))
+        root.add_widget(Image(source="assets/logo.png", size_hint_y=0.35))
+        root.add_widget(Label(text="[b][color=#00E5FF]النتيجة النهائية[/color][/b]",
+                              markup=True, font_size=dp(30), size_hint_y=None, height=dp(70)))
+        root.add_widget(Label(text=f"[b][size=64][color=#39FF14]{correct}/{total}[/color][/size][/b]",
+                              markup=True, size_hint_y=None, height=dp(110)))
+        root.add_widget(Label(text=f"[color=#8B949E]النقاط: {score}[/color]", markup=True,
+                              font_size=dp(18), size_hint_y=None, height=dp(40)))
+        root.add_widget(Label(text=f"[b][color=#{self._hex(col)}]{msg}[/color][/b]",
+                              markup=True, font_size=dp(18), size_hint_y=None, height=dp(60),
+                              halign="center"))
+        again = neon_button("↻ العب مجدداً", GREEN, 20)
+        again.bind(on_release=lambda *a: setattr(self.manager, "current", "quiz"))
+        home = neon_button("⌂ القائمة الرئيسية", CYAN, 18)
+        home.bind(on_release=lambda *a: setattr(self.manager, "current", "menu"))
+        root.add_widget(again); root.add_widget(home)
+        self.add_widget(root)
+
+    def _hex(self, c):
+        return "".join(f"{int(v*255):02X}" for v in c[:3])
+
+
+class CodeQuestApp(App):
+    def build(self):
+        self.title = "Code Quest - ألغاز بايثون"
+        self.stats = {"best": 0}
+        try:
+            with open(self.user_data_dir + "/stats.json") as f:
+                self.stats = json.load(f)
+        except Exception:
+            pass
+        sm = ScreenManager()
+        sm.add_widget(MenuScreen(name="menu"))
+        sm.add_widget(HowToScreen(name="howto"))
+        sm.add_widget(QuizScreen(name="quiz"))
+        sm.add_widget(ResultScreen(name="result"))
+        return sm
+
+    def save_stats(self):
+        try:
+            with open(self.user_data_dir + "/stats.json", "w") as f:
+                json.dump(self.stats, f)
+        except Exception:
+            pass
+
+
+if __name__ == "__main__":
+    import json
+    CodeQuestApp().run()

@@ -16,7 +16,7 @@ Window.clearcolor=(.025,.04,.07,1)
 CYAN=(0,.84,.96,1); GREEN=(.20,.91,.59,1); WHITE=(.91,.95,1,1)
 MUTED=(.48,.62,.72,1); PANEL=(.055,.085,.14,1); ORANGE=(1,.69,.28,1)
 DIFFS=["سهل","متوسط","صعب","مستحيل"]
-CATEGORIES=["الكل","رياضيات","ذكاء ومنطق","Python","ألغاز عامة","أنماط وأرقام"]
+CATEGORIES=["الكل","Python","JavaScript","SQL","HTML/CSS","الأمن السيبراني البرمجي"]
 TIMES={"سهل":30,"متوسط":25,"صعب":20,"مستحيل":15}
 POINTS={"سهل":10,"متوسط":20,"صعب":30,"مستحيل":50}
 def norm(s):
@@ -32,16 +32,16 @@ class Panel(BoxLayout):
     def sync(self,*_): self.rect.pos=self.pos; self.rect.size=self.size
 class RiddleQuest(App):
     def build(self):
-        self.title="PY RIDDLE QUEST"; self.questions=json.load(open(os.path.join(os.path.dirname(__file__),"questions.json"),encoding="utf-8"))
+        self.title="CODE QUEST"; self.questions=json.load(open(os.path.join(os.path.dirname(__file__),"questions.json"),encoding="utf-8"))
         self.best=0; self.sound_on=True; self.timer_event=None; self.load_best()
         self.root=BoxLayout(orientation="vertical",padding=dp(16),spacing=dp(10))
         row=BoxLayout(size_hint_y=None,height=dp(58)); brand=BoxLayout(orientation="vertical")
-        brand.add_widget(Label(text="[b]PY_RIDDLE[/b]",markup=True,color=CYAN,font_size="23sp",halign="left"))
-        brand.add_widget(Label(text="THINK / DEBUG / SOLVE",color=MUTED,font_size="10sp",halign="left"))
+        brand.add_widget(Label(text="[b]CODE_QUEST[/b]",markup=True,color=CYAN,font_size="23sp",halign="left"))
+        brand.add_widget(Label(text="CODE / DEBUG / BUILD",color=MUTED,font_size="10sp",halign="left"))
         row.add_widget(brand); self.best_lbl=Label(text=f"BEST {self.best}",color=GREEN,bold=True,size_hint_x=.35); row.add_widget(self.best_lbl)
         self.root.add_widget(row); self.progress=ProgressBar(max=10,size_hint_y=None,height=dp(5)); self.root.add_widget(self.progress)
         self.body=Panel(orientation="vertical",padding=dp(14),spacing=dp(9)); self.root.add_widget(self.body)
-        self.status=Label(text="SYSTEM ONLINE // PYTHON PUZZLE ENGINE",color=MUTED,size_hint_y=None,height=dp(22),font_size="9sp"); self.root.add_widget(self.status)
+        self.status=Label(text="SYSTEM ONLINE // PROGRAMMING CHALLENGE ENGINE",color=MUTED,size_hint_y=None,height=dp(22),font_size="9sp"); self.root.add_widget(self.status)
         self.home(); return self.root
     def load_best(self):
         try: self.best=json.load(open(os.path.join(self.user_data_dir,"record.json"),encoding="utf-8")).get("best",0)
@@ -60,10 +60,10 @@ class RiddleQuest(App):
         x=Button(text=t,size_hint_y=None,height=dp(h),background_normal="",background_color=c,color=WHITE,bold=True)
         x.bind(on_release=lambda *_:fn()); return x
     def home(self):
-        self.clear(); self.body.add_widget(self.lbl("مرحباً بك في ساحة التحدي",22,CYAN,True,48))
-        self.body.add_widget(self.lbl("500 سؤال • 5 أقسام • 4 مستويات",13,MUTED,False,30))
+        self.clear(); self.body.add_widget(self.lbl("مرحباً بك في تحديات البرمجة",22,CYAN,True,48))
+        self.body.add_widget(self.lbl("500 تحدٍ برمجي • 5 مسارات تقنية • 4 مستويات",13,MUTED,False,30))
         self.body.add_widget(self.lbl(f"أفضل نتيجة محفوظة: {self.best}",15,GREEN,True,32))
-        self.body.add_widget(self.lbl("اختر نوع الألغاز",15,WHITE,True,26))
+        self.body.add_widget(self.lbl("اختر مسار البرمجة",15,WHITE,True,26))
         for cat in CATEGORIES: self.body.add_widget(self.btn(cat,lambda c=cat:self.select_category(c),(.09,.17,.26,1),40))
         self.body.add_widget(self.btn("الصوت: "+("تشغيل 🔊" if self.sound_on else "إيقاف 🔇"),self.toggle_sound))
     def select_category(self,cat):
@@ -89,12 +89,12 @@ class RiddleQuest(App):
         self.body.add_widget(self.lbl(self.current["category"]+" • "+self.current["difficulty"],13,ORANGE,True,28))
         self.timer_lbl=self.lbl("",19,ORANGE,True,30); self.body.add_widget(self.timer_lbl)
         self.body.add_widget(self.lbl(self.current["question"],18,WHITE,True))
-        self.entry=TextInput(hint_text="اكتب إجابتك هنا...",multiline=False,size_hint_y=None,height=dp(50),font_size="17sp",
+        self.entry=TextInput(hint_text="اكتب ناتج الكود أو الإجابة البرمجية...",multiline=False,size_hint_y=None,height=dp(50),font_size="17sp",
             background_normal="",background_active="",background_color=(.09,.14,.21,1),foreground_color=WHITE,cursor_color=CYAN)
         self.entry.bind(on_text_validate=lambda *_:self.check()); self.body.add_widget(self.entry)
         row=BoxLayout(size_hint_y=None,height=dp(46),spacing=dp(8))
         row.add_widget(self.btn("تحقق",self.check,CYAN,46)); row.add_widget(self.btn("تلميح",self.hint,(.16,.27,.40,1),46)); self.body.add_widget(row)
-        self.feedback=self.lbl("أجب قبل انتهاء الوقت.",12,MUTED,False,34); self.body.add_widget(self.feedback)
+        self.feedback=self.lbl("حل التحدي البرمجي قبل انتهاء الوقت.",12,MUTED,False,34); self.body.add_widget(self.feedback)
         self.stats=self.lbl("",12,GREEN,True,26); self.body.add_widget(self.stats); self.refresh_stats()
         self.remaining=TIMES[self.current["difficulty"]]; self.update_timer()
         self.timer_event=Clock.schedule_interval(self.tick,1)
@@ -124,7 +124,7 @@ class RiddleQuest(App):
     def finish(self):
         self.clear()
         if self.score>self.best: self.best=self.score; self.save_best(); self.best_lbl.text=f"BEST {self.best}"
-        self.body.add_widget(self.lbl("MISSION COMPLETE",23,GREEN,True,55))
+        self.body.add_widget(self.lbl("CODING RUN COMPLETE",23,GREEN,True,55))
         self.body.add_widget(self.lbl(f"نتيجتك: {self.score} نقطة",24,WHITE,True,55))
         self.body.add_widget(self.lbl(f"إجابات صحيحة: {self.correct}/{len(self.deck)}",15,CYAN,True,38))
         self.body.add_widget(self.lbl(f"أفضل نتيجة: {self.best}",15,GREEN,True,38))

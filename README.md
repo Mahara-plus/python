@@ -22,3 +22,7 @@
 
 ## App icon
 The Android launcher icon is `assets/icon.png`. It is configured in `buildozer.spec` and included in the APK during the GitHub Actions build.
+
+
+## Programming challenge content
+The question bank contains 500 programming-focused challenges across Python, JavaScript, SQL, HTML/CSS, and secure coding. It no longer includes general-life riddles or arithmetic brain teasers.

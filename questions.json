@@ -1,0 +1,5502 @@
+[
+  {
+    "id": 1,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 3 + 7 ؟",
+    "answers": [
+      "10"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "3 + 7 = 10"
+  },
+  {
+    "id": 2,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 18 × 4 − 2 ؟",
+    "answers": [
+      "70"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "18 × 4 − 2 = 70"
+  },
+  {
+    "id": 3,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 3 = 5، فما قيمة x؟",
+    "answers": [
+      "15"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 5 × 3 = 15"
+  },
+  {
+    "id": 4,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 6 ثم أضفت 13 أصبح 79. ما العدد؟",
+    "answers": [
+      "11"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(79 − 13) ÷ 6 = 11"
+  },
+  {
+    "id": 5,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 4 + 9 ؟",
+    "answers": [
+      "13"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "4 + 9 = 13"
+  },
+  {
+    "id": 6,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 19 × 5 − 3 ؟",
+    "answers": [
+      "92"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "19 × 5 − 3 = 92"
+  },
+  {
+    "id": 7,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 4 = 6، فما قيمة x؟",
+    "answers": [
+      "24"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 6 × 4 = 24"
+  },
+  {
+    "id": 8,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 7 ثم أضفت 14 أصبح 98. ما العدد؟",
+    "answers": [
+      "12"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(98 − 14) ÷ 7 = 12"
+  },
+  {
+    "id": 9,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 5 + 11 ؟",
+    "answers": [
+      "16"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "5 + 11 = 16"
+  },
+  {
+    "id": 10,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 20 × 6 − 4 ؟",
+    "answers": [
+      "116"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "20 × 6 − 4 = 116"
+  },
+  {
+    "id": 11,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 5 = 7، فما قيمة x؟",
+    "answers": [
+      "35"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 7 × 5 = 35"
+  },
+  {
+    "id": 12,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 8 ثم أضفت 15 أصبح 119. ما العدد؟",
+    "answers": [
+      "13"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(119 − 15) ÷ 8 = 13"
+  },
+  {
+    "id": 13,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 6 + 13 ؟",
+    "answers": [
+      "19"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "6 + 13 = 19"
+  },
+  {
+    "id": 14,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 21 × 7 − 5 ؟",
+    "answers": [
+      "142"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "21 × 7 − 5 = 142"
+  },
+  {
+    "id": 15,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 6 = 8، فما قيمة x؟",
+    "answers": [
+      "48"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 8 × 6 = 48"
+  },
+  {
+    "id": 16,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 9 ثم أضفت 16 أصبح 142. ما العدد؟",
+    "answers": [
+      "14"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(142 − 16) ÷ 9 = 14"
+  },
+  {
+    "id": 17,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 7 + 15 ؟",
+    "answers": [
+      "22"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "7 + 15 = 22"
+  },
+  {
+    "id": 18,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 22 × 8 − 6 ؟",
+    "answers": [
+      "170"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "22 × 8 − 6 = 170"
+  },
+  {
+    "id": 19,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 7 = 9، فما قيمة x؟",
+    "answers": [
+      "63"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 9 × 7 = 63"
+  },
+  {
+    "id": 20,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 10 ثم أضفت 17 أصبح 167. ما العدد؟",
+    "answers": [
+      "15"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(167 − 17) ÷ 10 = 15"
+  },
+  {
+    "id": 21,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 8 + 17 ؟",
+    "answers": [
+      "25"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "8 + 17 = 25"
+  },
+  {
+    "id": 22,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 23 × 9 − 7 ؟",
+    "answers": [
+      "200"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "23 × 9 − 7 = 200"
+  },
+  {
+    "id": 23,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 3 = 10، فما قيمة x؟",
+    "answers": [
+      "30"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 10 × 3 = 30"
+  },
+  {
+    "id": 24,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 11 ثم أضفت 18 أصبح 194. ما العدد؟",
+    "answers": [
+      "16"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(194 − 18) ÷ 11 = 16"
+  },
+  {
+    "id": 25,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 9 + 19 ؟",
+    "answers": [
+      "28"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "9 + 19 = 28"
+  },
+  {
+    "id": 26,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 24 × 4 − 8 ؟",
+    "answers": [
+      "88"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "24 × 4 − 8 = 88"
+  },
+  {
+    "id": 27,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 4 = 11، فما قيمة x؟",
+    "answers": [
+      "44"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 11 × 4 = 44"
+  },
+  {
+    "id": 28,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 12 ثم أضفت 19 أصبح 223. ما العدد؟",
+    "answers": [
+      "17"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(223 − 19) ÷ 12 = 17"
+  },
+  {
+    "id": 29,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 10 + 21 ؟",
+    "answers": [
+      "31"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "10 + 21 = 31"
+  },
+  {
+    "id": 30,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 25 × 5 − 9 ؟",
+    "answers": [
+      "116"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "25 × 5 − 9 = 116"
+  },
+  {
+    "id": 31,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 5 = 12، فما قيمة x؟",
+    "answers": [
+      "60"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 12 × 5 = 60"
+  },
+  {
+    "id": 32,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 6 ثم أضفت 20 أصبح 128. ما العدد؟",
+    "answers": [
+      "18"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(128 − 20) ÷ 6 = 18"
+  },
+  {
+    "id": 33,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 11 + 23 ؟",
+    "answers": [
+      "34"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "11 + 23 = 34"
+  },
+  {
+    "id": 34,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 26 × 6 − 10 ؟",
+    "answers": [
+      "146"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "26 × 6 − 10 = 146"
+  },
+  {
+    "id": 35,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 6 = 13، فما قيمة x؟",
+    "answers": [
+      "78"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 13 × 6 = 78"
+  },
+  {
+    "id": 36,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 7 ثم أضفت 21 أصبح 154. ما العدد؟",
+    "answers": [
+      "19"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(154 − 21) ÷ 7 = 19"
+  },
+  {
+    "id": 37,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 12 + 25 ؟",
+    "answers": [
+      "37"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "12 + 25 = 37"
+  },
+  {
+    "id": 38,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 27 × 7 − 11 ؟",
+    "answers": [
+      "178"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "27 × 7 − 11 = 178"
+  },
+  {
+    "id": 39,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 7 = 14، فما قيمة x؟",
+    "answers": [
+      "98"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 14 × 7 = 98"
+  },
+  {
+    "id": 40,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 8 ثم أضفت 22 أصبح 182. ما العدد؟",
+    "answers": [
+      "20"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(182 − 22) ÷ 8 = 20"
+  },
+  {
+    "id": 41,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 13 + 27 ؟",
+    "answers": [
+      "40"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "13 + 27 = 40"
+  },
+  {
+    "id": 42,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 28 × 8 − 12 ؟",
+    "answers": [
+      "212"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "28 × 8 − 12 = 212"
+  },
+  {
+    "id": 43,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 3 = 15، فما قيمة x؟",
+    "answers": [
+      "45"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 15 × 3 = 45"
+  },
+  {
+    "id": 44,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 9 ثم أضفت 23 أصبح 212. ما العدد؟",
+    "answers": [
+      "21"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(212 − 23) ÷ 9 = 21"
+  },
+  {
+    "id": 45,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 14 + 29 ؟",
+    "answers": [
+      "43"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "14 + 29 = 43"
+  },
+  {
+    "id": 46,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 29 × 9 − 13 ؟",
+    "answers": [
+      "248"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "29 × 9 − 13 = 248"
+  },
+  {
+    "id": 47,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 4 = 16، فما قيمة x؟",
+    "answers": [
+      "64"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 16 × 4 = 64"
+  },
+  {
+    "id": 48,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 10 ثم أضفت 24 أصبح 244. ما العدد؟",
+    "answers": [
+      "22"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(244 − 24) ÷ 10 = 22"
+  },
+  {
+    "id": 49,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 15 + 31 ؟",
+    "answers": [
+      "46"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "15 + 31 = 46"
+  },
+  {
+    "id": 50,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 30 × 4 − 14 ؟",
+    "answers": [
+      "106"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "30 × 4 − 14 = 106"
+  },
+  {
+    "id": 51,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 5 = 17، فما قيمة x؟",
+    "answers": [
+      "85"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 17 × 5 = 85"
+  },
+  {
+    "id": 52,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 11 ثم أضفت 25 أصبح 278. ما العدد؟",
+    "answers": [
+      "23"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(278 − 25) ÷ 11 = 23"
+  },
+  {
+    "id": 53,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 16 + 33 ؟",
+    "answers": [
+      "49"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "16 + 33 = 49"
+  },
+  {
+    "id": 54,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 31 × 5 − 15 ؟",
+    "answers": [
+      "140"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "31 × 5 − 15 = 140"
+  },
+  {
+    "id": 55,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 6 = 18، فما قيمة x؟",
+    "answers": [
+      "108"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 18 × 6 = 108"
+  },
+  {
+    "id": 56,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 12 ثم أضفت 26 أصبح 314. ما العدد؟",
+    "answers": [
+      "24"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(314 − 26) ÷ 12 = 24"
+  },
+  {
+    "id": 57,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 17 + 35 ؟",
+    "answers": [
+      "52"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "17 + 35 = 52"
+  },
+  {
+    "id": 58,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 32 × 6 − 16 ؟",
+    "answers": [
+      "176"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "32 × 6 − 16 = 176"
+  },
+  {
+    "id": 59,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 7 = 19، فما قيمة x؟",
+    "answers": [
+      "133"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 19 × 7 = 133"
+  },
+  {
+    "id": 60,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 6 ثم أضفت 27 أصبح 177. ما العدد؟",
+    "answers": [
+      "25"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(177 − 27) ÷ 6 = 25"
+  },
+  {
+    "id": 61,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 18 + 37 ؟",
+    "answers": [
+      "55"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "18 + 37 = 55"
+  },
+  {
+    "id": 62,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 33 × 7 − 17 ؟",
+    "answers": [
+      "214"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "33 × 7 − 17 = 214"
+  },
+  {
+    "id": 63,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 3 = 20، فما قيمة x؟",
+    "answers": [
+      "60"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 20 × 3 = 60"
+  },
+  {
+    "id": 64,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 7 ثم أضفت 28 أصبح 210. ما العدد؟",
+    "answers": [
+      "26"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(210 − 28) ÷ 7 = 26"
+  },
+  {
+    "id": 65,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 19 + 39 ؟",
+    "answers": [
+      "58"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "19 + 39 = 58"
+  },
+  {
+    "id": 66,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 34 × 8 − 18 ؟",
+    "answers": [
+      "254"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "34 × 8 − 18 = 254"
+  },
+  {
+    "id": 67,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 4 = 21، فما قيمة x؟",
+    "answers": [
+      "84"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 21 × 4 = 84"
+  },
+  {
+    "id": 68,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 8 ثم أضفت 29 أصبح 245. ما العدد؟",
+    "answers": [
+      "27"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(245 − 29) ÷ 8 = 27"
+  },
+  {
+    "id": 69,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 20 + 41 ؟",
+    "answers": [
+      "61"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "20 + 41 = 61"
+  },
+  {
+    "id": 70,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 35 × 9 − 19 ؟",
+    "answers": [
+      "296"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "35 × 9 − 19 = 296"
+  },
+  {
+    "id": 71,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 5 = 22، فما قيمة x؟",
+    "answers": [
+      "110"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 22 × 5 = 110"
+  },
+  {
+    "id": 72,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 9 ثم أضفت 30 أصبح 282. ما العدد؟",
+    "answers": [
+      "28"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(282 − 30) ÷ 9 = 28"
+  },
+  {
+    "id": 73,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 21 + 43 ؟",
+    "answers": [
+      "64"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "21 + 43 = 64"
+  },
+  {
+    "id": 74,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 36 × 4 − 20 ؟",
+    "answers": [
+      "124"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "36 × 4 − 20 = 124"
+  },
+  {
+    "id": 75,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 6 = 23، فما قيمة x؟",
+    "answers": [
+      "138"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 23 × 6 = 138"
+  },
+  {
+    "id": 76,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 10 ثم أضفت 31 أصبح 321. ما العدد؟",
+    "answers": [
+      "29"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(321 − 31) ÷ 10 = 29"
+  },
+  {
+    "id": 77,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 22 + 45 ؟",
+    "answers": [
+      "67"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "22 + 45 = 67"
+  },
+  {
+    "id": 78,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 37 × 5 − 21 ؟",
+    "answers": [
+      "164"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "37 × 5 − 21 = 164"
+  },
+  {
+    "id": 79,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 7 = 24، فما قيمة x؟",
+    "answers": [
+      "168"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 24 × 7 = 168"
+  },
+  {
+    "id": 80,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 11 ثم أضفت 32 أصبح 362. ما العدد؟",
+    "answers": [
+      "30"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(362 − 32) ÷ 11 = 30"
+  },
+  {
+    "id": 81,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 23 + 47 ؟",
+    "answers": [
+      "70"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "23 + 47 = 70"
+  },
+  {
+    "id": 82,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 38 × 6 − 22 ؟",
+    "answers": [
+      "206"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "38 × 6 − 22 = 206"
+  },
+  {
+    "id": 83,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 3 = 25، فما قيمة x؟",
+    "answers": [
+      "75"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 25 × 3 = 75"
+  },
+  {
+    "id": 84,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 12 ثم أضفت 33 أصبح 405. ما العدد؟",
+    "answers": [
+      "31"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(405 − 33) ÷ 12 = 31"
+  },
+  {
+    "id": 85,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 24 + 49 ؟",
+    "answers": [
+      "73"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "24 + 49 = 73"
+  },
+  {
+    "id": 86,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 39 × 7 − 23 ؟",
+    "answers": [
+      "250"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "39 × 7 − 23 = 250"
+  },
+  {
+    "id": 87,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 4 = 26، فما قيمة x؟",
+    "answers": [
+      "104"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 26 × 4 = 104"
+  },
+  {
+    "id": 88,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 6 ثم أضفت 34 أصبح 226. ما العدد؟",
+    "answers": [
+      "32"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(226 − 34) ÷ 6 = 32"
+  },
+  {
+    "id": 89,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 25 + 51 ؟",
+    "answers": [
+      "76"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "25 + 51 = 76"
+  },
+  {
+    "id": 90,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 40 × 8 − 24 ؟",
+    "answers": [
+      "296"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "40 × 8 − 24 = 296"
+  },
+  {
+    "id": 91,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 5 = 27، فما قيمة x؟",
+    "answers": [
+      "135"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 27 × 5 = 135"
+  },
+  {
+    "id": 92,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 7 ثم أضفت 35 أصبح 266. ما العدد؟",
+    "answers": [
+      "33"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(266 − 35) ÷ 7 = 33"
+  },
+  {
+    "id": 93,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 26 + 53 ؟",
+    "answers": [
+      "79"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "26 + 53 = 79"
+  },
+  {
+    "id": 94,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 41 × 9 − 25 ؟",
+    "answers": [
+      "344"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "41 × 9 − 25 = 344"
+  },
+  {
+    "id": 95,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 6 = 28، فما قيمة x؟",
+    "answers": [
+      "168"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 28 × 6 = 168"
+  },
+  {
+    "id": 96,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 8 ثم أضفت 36 أصبح 308. ما العدد؟",
+    "answers": [
+      "34"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(308 − 36) ÷ 8 = 34"
+  },
+  {
+    "id": 97,
+    "category": "رياضيات",
+    "difficulty": "سهل",
+    "question": "ما ناتج 27 + 55 ؟",
+    "answers": [
+      "82"
+    ],
+    "hint": "اجمع العددين.",
+    "explanation": "27 + 55 = 82"
+  },
+  {
+    "id": 98,
+    "category": "رياضيات",
+    "difficulty": "متوسط",
+    "question": "ما ناتج 42 × 4 − 26 ؟",
+    "answers": [
+      "142"
+    ],
+    "hint": "ابدأ بالضرب ثم اطرح.",
+    "explanation": "42 × 4 − 26 = 142"
+  },
+  {
+    "id": 99,
+    "category": "رياضيات",
+    "difficulty": "صعب",
+    "question": "إذا كان x ÷ 7 = 29، فما قيمة x؟",
+    "answers": [
+      "203"
+    ],
+    "hint": "اضرب الطرفين في المقسوم عليه.",
+    "explanation": "x = 29 × 7 = 203"
+  },
+  {
+    "id": 100,
+    "category": "رياضيات",
+    "difficulty": "مستحيل",
+    "question": "عدد إذا ضربته بـ 9 ثم أضفت 37 أصبح 352. ما العدد؟",
+    "answers": [
+      "35"
+    ],
+    "hint": "اعكس العمليات: اطرح أولاً ثم اقسم.",
+    "explanation": "(352 − 37) ÷ 9 = 35"
+  },
+  {
+    "id": 101,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(2 + 3) ؟",
+    "answers": [
+      "5"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 5."
+  },
+  {
+    "id": 102,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('code')) ؟",
+    "answers": [
+      "4"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 4."
+  },
+  {
+    "id": 103,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([4, 5, 6][1]) ؟",
+    "answers": [
+      "5"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 5."
+  },
+  {
+    "id": 104,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((9 ** 2) % 2) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "9² % 2 = 1."
+  },
+  {
+    "id": 105,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(3 + 4) ؟",
+    "answers": [
+      "7"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 7."
+  },
+  {
+    "id": 106,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codex')) ؟",
+    "answers": [
+      "5"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 5."
+  },
+  {
+    "id": 107,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([5, 6, 7][1]) ؟",
+    "answers": [
+      "6"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 6."
+  },
+  {
+    "id": 108,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((10 ** 2) % 3) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "10² % 3 = 1."
+  },
+  {
+    "id": 109,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(4 + 5) ؟",
+    "answers": [
+      "9"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 9."
+  },
+  {
+    "id": 110,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexx')) ؟",
+    "answers": [
+      "6"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 6."
+  },
+  {
+    "id": 111,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([6, 7, 8][1]) ؟",
+    "answers": [
+      "7"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 7."
+  },
+  {
+    "id": 112,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((11 ** 2) % 4) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "11² % 4 = 1."
+  },
+  {
+    "id": 113,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(5 + 6) ؟",
+    "answers": [
+      "11"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 11."
+  },
+  {
+    "id": 114,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxx')) ؟",
+    "answers": [
+      "7"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 7."
+  },
+  {
+    "id": 115,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([7, 8, 9][1]) ؟",
+    "answers": [
+      "8"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 8."
+  },
+  {
+    "id": 116,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((12 ** 2) % 5) ؟",
+    "answers": [
+      "4"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "12² % 5 = 4."
+  },
+  {
+    "id": 117,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(6 + 7) ؟",
+    "answers": [
+      "13"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 13."
+  },
+  {
+    "id": 118,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxx')) ؟",
+    "answers": [
+      "8"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 8."
+  },
+  {
+    "id": 119,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([8, 9, 10][1]) ؟",
+    "answers": [
+      "9"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 9."
+  },
+  {
+    "id": 120,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((13 ** 2) % 6) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "13² % 6 = 1."
+  },
+  {
+    "id": 121,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(7 + 8) ؟",
+    "answers": [
+      "15"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 15."
+  },
+  {
+    "id": 122,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxx')) ؟",
+    "answers": [
+      "9"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 9."
+  },
+  {
+    "id": 123,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([9, 10, 11][1]) ؟",
+    "answers": [
+      "10"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 10."
+  },
+  {
+    "id": 124,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((14 ** 2) % 7) ؟",
+    "answers": [
+      "0"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "14² % 7 = 0."
+  },
+  {
+    "id": 125,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(8 + 9) ؟",
+    "answers": [
+      "17"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 17."
+  },
+  {
+    "id": 126,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxx')) ؟",
+    "answers": [
+      "10"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 10."
+  },
+  {
+    "id": 127,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([10, 11, 12][1]) ؟",
+    "answers": [
+      "11"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 11."
+  },
+  {
+    "id": 128,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((15 ** 2) % 2) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "15² % 2 = 1."
+  },
+  {
+    "id": 129,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(9 + 10) ؟",
+    "answers": [
+      "19"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 19."
+  },
+  {
+    "id": 130,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxx')) ؟",
+    "answers": [
+      "11"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 11."
+  },
+  {
+    "id": 131,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([11, 12, 13][1]) ؟",
+    "answers": [
+      "12"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 12."
+  },
+  {
+    "id": 132,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((16 ** 2) % 3) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "16² % 3 = 1."
+  },
+  {
+    "id": 133,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(10 + 11) ؟",
+    "answers": [
+      "21"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 21."
+  },
+  {
+    "id": 134,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxxx')) ؟",
+    "answers": [
+      "12"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 12."
+  },
+  {
+    "id": 135,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([12, 13, 14][1]) ؟",
+    "answers": [
+      "13"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 13."
+  },
+  {
+    "id": 136,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((17 ** 2) % 4) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "17² % 4 = 1."
+  },
+  {
+    "id": 137,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(11 + 3) ؟",
+    "answers": [
+      "14"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 14."
+  },
+  {
+    "id": 138,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxxxx')) ؟",
+    "answers": [
+      "13"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 13."
+  },
+  {
+    "id": 139,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([13, 14, 15][1]) ؟",
+    "answers": [
+      "14"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 14."
+  },
+  {
+    "id": 140,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((18 ** 2) % 5) ؟",
+    "answers": [
+      "4"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "18² % 5 = 4."
+  },
+  {
+    "id": 141,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(12 + 4) ؟",
+    "answers": [
+      "16"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 16."
+  },
+  {
+    "id": 142,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxxxxx')) ؟",
+    "answers": [
+      "14"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 14."
+  },
+  {
+    "id": 143,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([14, 15, 16][1]) ؟",
+    "answers": [
+      "15"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 15."
+  },
+  {
+    "id": 144,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((19 ** 2) % 6) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "19² % 6 = 1."
+  },
+  {
+    "id": 145,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(13 + 5) ؟",
+    "answers": [
+      "18"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 18."
+  },
+  {
+    "id": 146,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxxxxxx')) ؟",
+    "answers": [
+      "15"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 15."
+  },
+  {
+    "id": 147,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([15, 16, 17][1]) ؟",
+    "answers": [
+      "16"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 16."
+  },
+  {
+    "id": 148,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((20 ** 2) % 7) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "20² % 7 = 1."
+  },
+  {
+    "id": 149,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(14 + 6) ؟",
+    "answers": [
+      "20"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 20."
+  },
+  {
+    "id": 150,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxxxxxxx')) ؟",
+    "answers": [
+      "16"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 16."
+  },
+  {
+    "id": 151,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([16, 17, 18][1]) ؟",
+    "answers": [
+      "17"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 17."
+  },
+  {
+    "id": 152,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((21 ** 2) % 2) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "21² % 2 = 1."
+  },
+  {
+    "id": 153,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(15 + 7) ؟",
+    "answers": [
+      "22"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 22."
+  },
+  {
+    "id": 154,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxxxxxxxx')) ؟",
+    "answers": [
+      "17"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 17."
+  },
+  {
+    "id": 155,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([17, 18, 19][1]) ؟",
+    "answers": [
+      "18"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 18."
+  },
+  {
+    "id": 156,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((22 ** 2) % 3) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "22² % 3 = 1."
+  },
+  {
+    "id": 157,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(16 + 8) ؟",
+    "answers": [
+      "24"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 24."
+  },
+  {
+    "id": 158,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxxxxxxxxx')) ؟",
+    "answers": [
+      "18"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 18."
+  },
+  {
+    "id": 159,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([18, 19, 20][1]) ؟",
+    "answers": [
+      "19"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 19."
+  },
+  {
+    "id": 160,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((23 ** 2) % 4) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "23² % 4 = 1."
+  },
+  {
+    "id": 161,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(17 + 9) ؟",
+    "answers": [
+      "26"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 26."
+  },
+  {
+    "id": 162,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxxxxxxxxxx')) ؟",
+    "answers": [
+      "19"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 19."
+  },
+  {
+    "id": 163,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([19, 20, 21][1]) ؟",
+    "answers": [
+      "20"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 20."
+  },
+  {
+    "id": 164,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((24 ** 2) % 5) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "24² % 5 = 1."
+  },
+  {
+    "id": 165,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(18 + 10) ؟",
+    "answers": [
+      "28"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 28."
+  },
+  {
+    "id": 166,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxxxxxxxxxxx')) ؟",
+    "answers": [
+      "20"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 20."
+  },
+  {
+    "id": 167,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([20, 21, 22][1]) ؟",
+    "answers": [
+      "21"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 21."
+  },
+  {
+    "id": 168,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((25 ** 2) % 6) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "25² % 6 = 1."
+  },
+  {
+    "id": 169,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(19 + 11) ؟",
+    "answers": [
+      "30"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 30."
+  },
+  {
+    "id": 170,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxxxxxxxxxxxx')) ؟",
+    "answers": [
+      "21"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 21."
+  },
+  {
+    "id": 171,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([21, 22, 23][1]) ؟",
+    "answers": [
+      "22"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 22."
+  },
+  {
+    "id": 172,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((26 ** 2) % 7) ؟",
+    "answers": [
+      "4"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "26² % 7 = 4."
+  },
+  {
+    "id": 173,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(20 + 3) ؟",
+    "answers": [
+      "23"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 23."
+  },
+  {
+    "id": 174,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxxxxxxxxxxxxx')) ؟",
+    "answers": [
+      "22"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 22."
+  },
+  {
+    "id": 175,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([22, 23, 24][1]) ؟",
+    "answers": [
+      "23"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 23."
+  },
+  {
+    "id": 176,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((27 ** 2) % 2) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "27² % 2 = 1."
+  },
+  {
+    "id": 177,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(21 + 4) ؟",
+    "answers": [
+      "25"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 25."
+  },
+  {
+    "id": 178,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxxxxxxxxxxxxxx')) ؟",
+    "answers": [
+      "23"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 23."
+  },
+  {
+    "id": 179,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([23, 24, 25][1]) ؟",
+    "answers": [
+      "24"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 24."
+  },
+  {
+    "id": 180,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((28 ** 2) % 3) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "28² % 3 = 1."
+  },
+  {
+    "id": 181,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(22 + 5) ؟",
+    "answers": [
+      "27"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 27."
+  },
+  {
+    "id": 182,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxxxxxxxxxxxxxxx')) ؟",
+    "answers": [
+      "24"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 24."
+  },
+  {
+    "id": 183,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([24, 25, 26][1]) ؟",
+    "answers": [
+      "25"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 25."
+  },
+  {
+    "id": 184,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((29 ** 2) % 4) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "29² % 4 = 1."
+  },
+  {
+    "id": 185,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(23 + 6) ؟",
+    "answers": [
+      "29"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 29."
+  },
+  {
+    "id": 186,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxxxxxxxxxxxxxxxx')) ؟",
+    "answers": [
+      "25"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 25."
+  },
+  {
+    "id": 187,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([25, 26, 27][1]) ؟",
+    "answers": [
+      "26"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 26."
+  },
+  {
+    "id": 188,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((30 ** 2) % 5) ؟",
+    "answers": [
+      "0"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "30² % 5 = 0."
+  },
+  {
+    "id": 189,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(24 + 7) ؟",
+    "answers": [
+      "31"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 31."
+  },
+  {
+    "id": 190,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxxxxxxxxxxxxxxxxx')) ؟",
+    "answers": [
+      "26"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 26."
+  },
+  {
+    "id": 191,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([26, 27, 28][1]) ؟",
+    "answers": [
+      "27"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 27."
+  },
+  {
+    "id": 192,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((31 ** 2) % 6) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "31² % 6 = 1."
+  },
+  {
+    "id": 193,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(25 + 8) ؟",
+    "answers": [
+      "33"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 33."
+  },
+  {
+    "id": 194,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxxxxxxxxxxxxxxxxxx')) ؟",
+    "answers": [
+      "27"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 27."
+  },
+  {
+    "id": 195,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([27, 28, 29][1]) ؟",
+    "answers": [
+      "28"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 28."
+  },
+  {
+    "id": 196,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((32 ** 2) % 7) ؟",
+    "answers": [
+      "2"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "32² % 7 = 2."
+  },
+  {
+    "id": 197,
+    "category": "Python",
+    "difficulty": "سهل",
+    "question": "ما ناتج تنفيذ: print(26 + 9) ؟",
+    "answers": [
+      "35"
+    ],
+    "hint": "عامل + يجمع الأعداد.",
+    "explanation": "الناتج 35."
+  },
+  {
+    "id": 198,
+    "category": "Python",
+    "difficulty": "متوسط",
+    "question": "ما ناتج: print(len('codexxxxxxxxxxxxxxxxxxxxxxxx')) ؟",
+    "answers": [
+      "28"
+    ],
+    "hint": "len تحسب عدد الأحرف.",
+    "explanation": "عدد الأحرف هو 28."
+  },
+  {
+    "id": 199,
+    "category": "Python",
+    "difficulty": "صعب",
+    "question": "ما ناتج: print([28, 29, 30][1]) ؟",
+    "answers": [
+      "29"
+    ],
+    "hint": "الفهرسة في Python تبدأ من صفر.",
+    "explanation": "العنصر ذو الفهرس 1 هو 29."
+  },
+  {
+    "id": 200,
+    "category": "Python",
+    "difficulty": "مستحيل",
+    "question": "ما ناتج: print((33 ** 2) % 2) ؟",
+    "answers": [
+      "1"
+    ],
+    "hint": "احسب القوة ثم باقي القسمة.",
+    "explanation": "33² % 2 = 1."
+  },
+  {
+    "id": 201,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 1، 3، 5، ؟",
+    "answers": [
+      "7"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 2."
+  },
+  {
+    "id": 202,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 3 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "6"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "3 × 2 = 6."
+  },
+  {
+    "id": 203,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 2، 5، 8، 11، ؟",
+    "answers": [
+      "14"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 3، إذن التالي 14."
+  },
+  {
+    "id": 204,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 18، فما العدد الأوسط؟",
+    "answers": [
+      "6"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 6."
+  },
+  {
+    "id": 205,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 2، 5، 8، ؟",
+    "answers": [
+      "11"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 3."
+  },
+  {
+    "id": 206,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 4 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "8"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "4 × 2 = 8."
+  },
+  {
+    "id": 207,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 3، 7، 11، 15، ؟",
+    "answers": [
+      "19"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 4، إذن التالي 19."
+  },
+  {
+    "id": 208,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 21، فما العدد الأوسط؟",
+    "answers": [
+      "7"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 7."
+  },
+  {
+    "id": 209,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 3، 7، 11، ؟",
+    "answers": [
+      "15"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 4."
+  },
+  {
+    "id": 210,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 5 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "10"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "5 × 2 = 10."
+  },
+  {
+    "id": 211,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 4، 9، 14، 19، ؟",
+    "answers": [
+      "24"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 5، إذن التالي 24."
+  },
+  {
+    "id": 212,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 24، فما العدد الأوسط؟",
+    "answers": [
+      "8"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 8."
+  },
+  {
+    "id": 213,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 4، 9، 14، ؟",
+    "answers": [
+      "19"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 5."
+  },
+  {
+    "id": 214,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 6 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "12"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "6 × 2 = 12."
+  },
+  {
+    "id": 215,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 5، 11، 17، 23، ؟",
+    "answers": [
+      "29"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 6، إذن التالي 29."
+  },
+  {
+    "id": 216,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 27، فما العدد الأوسط؟",
+    "answers": [
+      "9"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 9."
+  },
+  {
+    "id": 217,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 5، 11، 17، ؟",
+    "answers": [
+      "23"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 6."
+  },
+  {
+    "id": 218,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 7 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "14"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "7 × 2 = 14."
+  },
+  {
+    "id": 219,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 6، 13، 20، 27، ؟",
+    "answers": [
+      "34"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 7، إذن التالي 34."
+  },
+  {
+    "id": 220,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 30، فما العدد الأوسط؟",
+    "answers": [
+      "10"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 10."
+  },
+  {
+    "id": 221,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 6، 8، 10، ؟",
+    "answers": [
+      "12"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 2."
+  },
+  {
+    "id": 222,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 8 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "16"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "8 × 2 = 16."
+  },
+  {
+    "id": 223,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 7، 15، 23، 31، ؟",
+    "answers": [
+      "39"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 8، إذن التالي 39."
+  },
+  {
+    "id": 224,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 33، فما العدد الأوسط؟",
+    "answers": [
+      "11"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 11."
+  },
+  {
+    "id": 225,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 7، 10، 13، ؟",
+    "answers": [
+      "16"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 3."
+  },
+  {
+    "id": 226,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 9 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "18"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "9 × 2 = 18."
+  },
+  {
+    "id": 227,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 8، 17، 26، 35، ؟",
+    "answers": [
+      "44"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 9، إذن التالي 44."
+  },
+  {
+    "id": 228,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 36، فما العدد الأوسط؟",
+    "answers": [
+      "12"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 12."
+  },
+  {
+    "id": 229,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 8، 12، 16، ؟",
+    "answers": [
+      "20"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 4."
+  },
+  {
+    "id": 230,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 10 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "20"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "10 × 2 = 20."
+  },
+  {
+    "id": 231,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 9، 12، 15، 18، ؟",
+    "answers": [
+      "21"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 3، إذن التالي 21."
+  },
+  {
+    "id": 232,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 39، فما العدد الأوسط؟",
+    "answers": [
+      "13"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 13."
+  },
+  {
+    "id": 233,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 9، 14، 19، ؟",
+    "answers": [
+      "24"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 5."
+  },
+  {
+    "id": 234,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 11 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "22"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "11 × 2 = 22."
+  },
+  {
+    "id": 235,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 10، 14، 18، 22، ؟",
+    "answers": [
+      "26"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 4، إذن التالي 26."
+  },
+  {
+    "id": 236,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 42، فما العدد الأوسط؟",
+    "answers": [
+      "14"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 14."
+  },
+  {
+    "id": 237,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 10، 16، 22، ؟",
+    "answers": [
+      "28"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 6."
+  },
+  {
+    "id": 238,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 12 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "24"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "12 × 2 = 24."
+  },
+  {
+    "id": 239,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 11، 16، 21، 26، ؟",
+    "answers": [
+      "31"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 5، إذن التالي 31."
+  },
+  {
+    "id": 240,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 45، فما العدد الأوسط؟",
+    "answers": [
+      "15"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 15."
+  },
+  {
+    "id": 241,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 11، 13، 15، ؟",
+    "answers": [
+      "17"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 2."
+  },
+  {
+    "id": 242,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 13 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "26"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "13 × 2 = 26."
+  },
+  {
+    "id": 243,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 12، 18، 24، 30، ؟",
+    "answers": [
+      "36"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 6، إذن التالي 36."
+  },
+  {
+    "id": 244,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 48، فما العدد الأوسط؟",
+    "answers": [
+      "16"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 16."
+  },
+  {
+    "id": 245,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 12، 15، 18، ؟",
+    "answers": [
+      "21"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 3."
+  },
+  {
+    "id": 246,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 14 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "28"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "14 × 2 = 28."
+  },
+  {
+    "id": 247,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 13، 20، 27، 34، ؟",
+    "answers": [
+      "41"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 7، إذن التالي 41."
+  },
+  {
+    "id": 248,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 51، فما العدد الأوسط؟",
+    "answers": [
+      "17"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 17."
+  },
+  {
+    "id": 249,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 13، 17، 21، ؟",
+    "answers": [
+      "25"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 4."
+  },
+  {
+    "id": 250,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 15 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "30"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "15 × 2 = 30."
+  },
+  {
+    "id": 251,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 14، 22، 30، 38، ؟",
+    "answers": [
+      "46"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 8، إذن التالي 46."
+  },
+  {
+    "id": 252,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 54، فما العدد الأوسط؟",
+    "answers": [
+      "18"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 18."
+  },
+  {
+    "id": 253,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 14، 19، 24، ؟",
+    "answers": [
+      "29"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 5."
+  },
+  {
+    "id": 254,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 16 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "32"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "16 × 2 = 32."
+  },
+  {
+    "id": 255,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 15، 24، 33، 42، ؟",
+    "answers": [
+      "51"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 9، إذن التالي 51."
+  },
+  {
+    "id": 256,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 57، فما العدد الأوسط؟",
+    "answers": [
+      "19"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 19."
+  },
+  {
+    "id": 257,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 15، 21، 27، ؟",
+    "answers": [
+      "33"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 6."
+  },
+  {
+    "id": 258,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 17 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "34"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "17 × 2 = 34."
+  },
+  {
+    "id": 259,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 16، 19، 22، 25، ؟",
+    "answers": [
+      "28"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 3، إذن التالي 28."
+  },
+  {
+    "id": 260,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 60، فما العدد الأوسط؟",
+    "answers": [
+      "20"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 20."
+  },
+  {
+    "id": 261,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 16، 18، 20، ؟",
+    "answers": [
+      "22"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 2."
+  },
+  {
+    "id": 262,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 18 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "36"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "18 × 2 = 36."
+  },
+  {
+    "id": 263,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 17، 21، 25، 29، ؟",
+    "answers": [
+      "33"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 4، إذن التالي 33."
+  },
+  {
+    "id": 264,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 63، فما العدد الأوسط؟",
+    "answers": [
+      "21"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 21."
+  },
+  {
+    "id": 265,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 17، 20، 23، ؟",
+    "answers": [
+      "26"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 3."
+  },
+  {
+    "id": 266,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 19 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "38"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "19 × 2 = 38."
+  },
+  {
+    "id": 267,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 18، 23، 28، 33، ؟",
+    "answers": [
+      "38"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 5، إذن التالي 38."
+  },
+  {
+    "id": 268,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 66، فما العدد الأوسط؟",
+    "answers": [
+      "22"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 22."
+  },
+  {
+    "id": 269,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 18، 22، 26، ؟",
+    "answers": [
+      "30"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 4."
+  },
+  {
+    "id": 270,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 20 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "40"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "20 × 2 = 40."
+  },
+  {
+    "id": 271,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 19، 25، 31، 37، ؟",
+    "answers": [
+      "43"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 6، إذن التالي 43."
+  },
+  {
+    "id": 272,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 69، فما العدد الأوسط؟",
+    "answers": [
+      "23"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 23."
+  },
+  {
+    "id": 273,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 19، 24، 29، ؟",
+    "answers": [
+      "34"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 5."
+  },
+  {
+    "id": 274,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 21 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "42"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "21 × 2 = 42."
+  },
+  {
+    "id": 275,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 20، 27، 34، 41، ؟",
+    "answers": [
+      "48"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 7، إذن التالي 48."
+  },
+  {
+    "id": 276,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 72، فما العدد الأوسط؟",
+    "answers": [
+      "24"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 24."
+  },
+  {
+    "id": 277,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 20، 26، 32، ؟",
+    "answers": [
+      "38"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 6."
+  },
+  {
+    "id": 278,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 22 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "44"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "22 × 2 = 44."
+  },
+  {
+    "id": 279,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 21، 29، 37، 45، ؟",
+    "answers": [
+      "53"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 8، إذن التالي 53."
+  },
+  {
+    "id": 280,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 75، فما العدد الأوسط؟",
+    "answers": [
+      "25"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 25."
+  },
+  {
+    "id": 281,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 21، 23، 25، ؟",
+    "answers": [
+      "27"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 2."
+  },
+  {
+    "id": 282,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 23 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "46"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "23 × 2 = 46."
+  },
+  {
+    "id": 283,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 22، 31، 40، 49، ؟",
+    "answers": [
+      "58"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 9، إذن التالي 58."
+  },
+  {
+    "id": 284,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 78، فما العدد الأوسط؟",
+    "answers": [
+      "26"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 26."
+  },
+  {
+    "id": 285,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 22، 25، 28، ؟",
+    "answers": [
+      "31"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 3."
+  },
+  {
+    "id": 286,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 24 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "48"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "24 × 2 = 48."
+  },
+  {
+    "id": 287,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 23، 26، 29، 32، ؟",
+    "answers": [
+      "35"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 3، إذن التالي 35."
+  },
+  {
+    "id": 288,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 81، فما العدد الأوسط؟",
+    "answers": [
+      "27"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 27."
+  },
+  {
+    "id": 289,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 23، 27، 31، ؟",
+    "answers": [
+      "35"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 4."
+  },
+  {
+    "id": 290,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 25 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "50"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "25 × 2 = 50."
+  },
+  {
+    "id": 291,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 24، 28، 32، 36، ؟",
+    "answers": [
+      "40"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 4، إذن التالي 40."
+  },
+  {
+    "id": 292,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 84، فما العدد الأوسط؟",
+    "answers": [
+      "28"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 28."
+  },
+  {
+    "id": 293,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 24، 29، 34، ؟",
+    "answers": [
+      "39"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 5."
+  },
+  {
+    "id": 294,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 26 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "52"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "26 × 2 = 52."
+  },
+  {
+    "id": 295,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 25، 30، 35، 40، ؟",
+    "answers": [
+      "45"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 5، إذن التالي 45."
+  },
+  {
+    "id": 296,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 87، فما العدد الأوسط؟",
+    "answers": [
+      "29"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 29."
+  },
+  {
+    "id": 297,
+    "category": "ذكاء ومنطق",
+    "difficulty": "سهل",
+    "question": "أكمل النمط: 25، 31، 37، ؟",
+    "answers": [
+      "43"
+    ],
+    "hint": "يزداد النمط بمقدار ثابت.",
+    "explanation": "الفرق الثابت هو 6."
+  },
+  {
+    "id": 298,
+    "category": "ذكاء ومنطق",
+    "difficulty": "متوسط",
+    "question": "لدى سارة 27 صناديق، في كل صندوق 2 كرة. كم كرة لديها؟",
+    "answers": [
+      "54"
+    ],
+    "hint": "اضرب عدد الصناديق في كرتين.",
+    "explanation": "27 × 2 = 54."
+  },
+  {
+    "id": 299,
+    "category": "ذكاء ومنطق",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 26، 32، 38، 44، ؟",
+    "answers": [
+      "50"
+    ],
+    "hint": "افحص الفروق بين الأعداد.",
+    "explanation": "الفرق 6، إذن التالي 50."
+  },
+  {
+    "id": 300,
+    "category": "ذكاء ومنطق",
+    "difficulty": "مستحيل",
+    "question": "إذا كان مجموع ثلاثة أعداد متتالية يساوي 90، فما العدد الأوسط؟",
+    "answers": [
+      "30"
+    ],
+    "hint": "الأعداد المتتالية تتمركز حول العدد الأوسط.",
+    "explanation": "مجموع ثلاثة أعداد متتالية يساوي ثلاثة أضعاف الأوسط؛ الأوسط = 30."
+  },
+  {
+    "id": 301,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "لغز: شيء له أسنان ولا يعض، ما هو؟",
+    "answers": [
+      "المشط"
+    ],
+    "hint": "تستخدمه لترتيب الشعر.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 302,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "لغز: شيء يكتب ولا يقرأ، ما هو؟",
+    "answers": [
+      "القلم"
+    ],
+    "hint": "أداة للكتابة.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 303,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "لغز: ما الشيء الذي له عين ولا يرى؟",
+    "answers": [
+      "الإبرة"
+    ],
+    "hint": "يدخل الخيط في عينها.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 304,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "لغز: ما الشيء الذي كلما أخذت منه كبر؟",
+    "answers": [
+      "الحفرة"
+    ],
+    "hint": "يكون في الأرض.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 305,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "لغز: ما الشيء الذي له رقبة وليس له رأس؟",
+    "answers": [
+      "الزجاجة"
+    ],
+    "hint": "يوضع فيه الماء.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 306,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "تحدي التفكير: شيء له أسنان ولا يعض، ما هو؟",
+    "answers": [
+      "المشط"
+    ],
+    "hint": "تستخدمه لترتيب الشعر.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 307,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "تحدي التفكير: شيء يكتب ولا يقرأ، ما هو؟",
+    "answers": [
+      "القلم"
+    ],
+    "hint": "أداة للكتابة.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 308,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "تحدي التفكير: ما الشيء الذي له عين ولا يرى؟",
+    "answers": [
+      "الإبرة"
+    ],
+    "hint": "يدخل الخيط في عينها.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 309,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "تحدي التفكير: ما الشيء الذي كلما أخذت منه كبر؟",
+    "answers": [
+      "الحفرة"
+    ],
+    "hint": "يكون في الأرض.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 310,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "تحدي التفكير: ما الشيء الذي له رقبة وليس له رأس؟",
+    "answers": [
+      "الزجاجة"
+    ],
+    "hint": "يوضع فيه الماء.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 311,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "ركز جيداً: شيء له أسنان ولا يعض، ما هو؟",
+    "answers": [
+      "المشط"
+    ],
+    "hint": "تستخدمه لترتيب الشعر.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 312,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "ركز جيداً: شيء يكتب ولا يقرأ، ما هو؟",
+    "answers": [
+      "القلم"
+    ],
+    "hint": "أداة للكتابة.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 313,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "ركز جيداً: ما الشيء الذي له عين ولا يرى؟",
+    "answers": [
+      "الإبرة"
+    ],
+    "hint": "يدخل الخيط في عينها.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 314,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "ركز جيداً: ما الشيء الذي كلما أخذت منه كبر؟",
+    "answers": [
+      "الحفرة"
+    ],
+    "hint": "يكون في الأرض.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 315,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "ركز جيداً: ما الشيء الذي له رقبة وليس له رأس؟",
+    "answers": [
+      "الزجاجة"
+    ],
+    "hint": "يوضع فيه الماء.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 316,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "سؤال المرحلة: شيء له أسنان ولا يعض، ما هو؟",
+    "answers": [
+      "المشط"
+    ],
+    "hint": "تستخدمه لترتيب الشعر.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 317,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "سؤال المرحلة: شيء يكتب ولا يقرأ، ما هو؟",
+    "answers": [
+      "القلم"
+    ],
+    "hint": "أداة للكتابة.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 318,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "سؤال المرحلة: ما الشيء الذي له عين ولا يرى؟",
+    "answers": [
+      "الإبرة"
+    ],
+    "hint": "يدخل الخيط في عينها.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 319,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "سؤال المرحلة: ما الشيء الذي كلما أخذت منه كبر؟",
+    "answers": [
+      "الحفرة"
+    ],
+    "hint": "يكون في الأرض.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 320,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "سؤال المرحلة: ما الشيء الذي له رقبة وليس له رأس؟",
+    "answers": [
+      "الزجاجة"
+    ],
+    "hint": "يوضع فيه الماء.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 321,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "اختبر ذكاءك: شيء له أسنان ولا يعض، ما هو؟",
+    "answers": [
+      "المشط"
+    ],
+    "hint": "تستخدمه لترتيب الشعر.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 322,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "اختبر ذكاءك: شيء يكتب ولا يقرأ، ما هو؟",
+    "answers": [
+      "القلم"
+    ],
+    "hint": "أداة للكتابة.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 323,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "اختبر ذكاءك: ما الشيء الذي له عين ولا يرى؟",
+    "answers": [
+      "الإبرة"
+    ],
+    "hint": "يدخل الخيط في عينها.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 324,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "اختبر ذكاءك: ما الشيء الذي كلما أخذت منه كبر؟",
+    "answers": [
+      "الحفرة"
+    ],
+    "hint": "يكون في الأرض.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 325,
+    "category": "ألغاز عامة",
+    "difficulty": "سهل",
+    "question": "اختبر ذكاءك: ما الشيء الذي له رقبة وليس له رأس؟",
+    "answers": [
+      "الزجاجة"
+    ],
+    "hint": "يوضع فيه الماء.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 326,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "لغز: ما الشيء الذي يسمع بلا أذن ويتكلم بلا لسان؟",
+    "answers": [
+      "الهاتف"
+    ],
+    "hint": "تتواصل به مع الآخرين.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 327,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "لغز: ما الشيء الذي تملكه أنت ويستخدمه الآخرون أكثر منك؟",
+    "answers": [
+      "اسمك"
+    ],
+    "hint": "يناديك به الناس.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 328,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "لغز: ما الشيء الذي يجري ولا يمشي؟",
+    "answers": [
+      "الماء"
+    ],
+    "hint": "يتدفق في الأنهار.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 329,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "لغز: ما الشيء الذي كلما زاد نقص؟",
+    "answers": [
+      "العمر"
+    ],
+    "hint": "مرتبط بمرور الزمن.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 330,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "لغز: ما الذي يوجد في وسط مكة؟",
+    "answers": [
+      "حرف الكاف"
+    ],
+    "hint": "فكر في الكلمة لا المكان.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 331,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "تحدي التفكير: ما الشيء الذي يسمع بلا أذن ويتكلم بلا لسان؟",
+    "answers": [
+      "الهاتف"
+    ],
+    "hint": "تتواصل به مع الآخرين.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 332,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "تحدي التفكير: ما الشيء الذي تملكه أنت ويستخدمه الآخرون أكثر منك؟",
+    "answers": [
+      "اسمك"
+    ],
+    "hint": "يناديك به الناس.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 333,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "تحدي التفكير: ما الشيء الذي يجري ولا يمشي؟",
+    "answers": [
+      "الماء"
+    ],
+    "hint": "يتدفق في الأنهار.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 334,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "تحدي التفكير: ما الشيء الذي كلما زاد نقص؟",
+    "answers": [
+      "العمر"
+    ],
+    "hint": "مرتبط بمرور الزمن.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 335,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "تحدي التفكير: ما الذي يوجد في وسط مكة؟",
+    "answers": [
+      "حرف الكاف"
+    ],
+    "hint": "فكر في الكلمة لا المكان.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 336,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "ركز جيداً: ما الشيء الذي يسمع بلا أذن ويتكلم بلا لسان؟",
+    "answers": [
+      "الهاتف"
+    ],
+    "hint": "تتواصل به مع الآخرين.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 337,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "ركز جيداً: ما الشيء الذي تملكه أنت ويستخدمه الآخرون أكثر منك؟",
+    "answers": [
+      "اسمك"
+    ],
+    "hint": "يناديك به الناس.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 338,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "ركز جيداً: ما الشيء الذي يجري ولا يمشي؟",
+    "answers": [
+      "الماء"
+    ],
+    "hint": "يتدفق في الأنهار.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 339,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "ركز جيداً: ما الشيء الذي كلما زاد نقص؟",
+    "answers": [
+      "العمر"
+    ],
+    "hint": "مرتبط بمرور الزمن.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 340,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "ركز جيداً: ما الذي يوجد في وسط مكة؟",
+    "answers": [
+      "حرف الكاف"
+    ],
+    "hint": "فكر في الكلمة لا المكان.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 341,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "سؤال المرحلة: ما الشيء الذي يسمع بلا أذن ويتكلم بلا لسان؟",
+    "answers": [
+      "الهاتف"
+    ],
+    "hint": "تتواصل به مع الآخرين.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 342,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "سؤال المرحلة: ما الشيء الذي تملكه أنت ويستخدمه الآخرون أكثر منك؟",
+    "answers": [
+      "اسمك"
+    ],
+    "hint": "يناديك به الناس.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 343,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "سؤال المرحلة: ما الشيء الذي يجري ولا يمشي؟",
+    "answers": [
+      "الماء"
+    ],
+    "hint": "يتدفق في الأنهار.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 344,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "سؤال المرحلة: ما الشيء الذي كلما زاد نقص؟",
+    "answers": [
+      "العمر"
+    ],
+    "hint": "مرتبط بمرور الزمن.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 345,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "سؤال المرحلة: ما الذي يوجد في وسط مكة؟",
+    "answers": [
+      "حرف الكاف"
+    ],
+    "hint": "فكر في الكلمة لا المكان.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 346,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "اختبر ذكاءك: ما الشيء الذي يسمع بلا أذن ويتكلم بلا لسان؟",
+    "answers": [
+      "الهاتف"
+    ],
+    "hint": "تتواصل به مع الآخرين.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 347,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "اختبر ذكاءك: ما الشيء الذي تملكه أنت ويستخدمه الآخرون أكثر منك؟",
+    "answers": [
+      "اسمك"
+    ],
+    "hint": "يناديك به الناس.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 348,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "اختبر ذكاءك: ما الشيء الذي يجري ولا يمشي؟",
+    "answers": [
+      "الماء"
+    ],
+    "hint": "يتدفق في الأنهار.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 349,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "اختبر ذكاءك: ما الشيء الذي كلما زاد نقص؟",
+    "answers": [
+      "العمر"
+    ],
+    "hint": "مرتبط بمرور الزمن.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 350,
+    "category": "ألغاز عامة",
+    "difficulty": "متوسط",
+    "question": "اختبر ذكاءك: ما الذي يوجد في وسط مكة؟",
+    "answers": [
+      "حرف الكاف"
+    ],
+    "hint": "فكر في الكلمة لا المكان.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 351,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "لغز: أم أحمد لديها أربعة أبناء: شمال وجنوب وشرق، فما اسم الرابع؟",
+    "answers": [
+      "أحمد"
+    ],
+    "hint": "الاسم موجود في بداية اللغز.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 352,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "لغز: رجل خرج تحت المطر بلا مظلة ولم تبتل شعرة من رأسه، لماذا؟",
+    "answers": [
+      "أصلع"
+    ],
+    "hint": "ليس لديه شعر يبتل.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 353,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "لغز: ما الشهر الذي يحتوي على 28 يوماً؟",
+    "answers": [
+      "كل الشهور"
+    ],
+    "hint": "كل شهر فيه 28 يوماً على الأقل.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 354,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "لغز: إذا تجاوزت صاحب المركز الثاني في سباق، فما مركزك؟",
+    "answers": [
+      "الثاني"
+    ],
+    "hint": "تأخذ مكان من تجاوزته.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 355,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "لغز: كم مرة تستطيع طرح الرقم 5 من 25؟",
+    "answers": [
+      "مرة واحدة"
+    ],
+    "hint": "بعد أول طرح يصبح العدد 20.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 356,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "تحدي التفكير: أم أحمد لديها أربعة أبناء: شمال وجنوب وشرق، فما اسم الرابع؟",
+    "answers": [
+      "أحمد"
+    ],
+    "hint": "الاسم موجود في بداية اللغز.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 357,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "تحدي التفكير: رجل خرج تحت المطر بلا مظلة ولم تبتل شعرة من رأسه، لماذا؟",
+    "answers": [
+      "أصلع"
+    ],
+    "hint": "ليس لديه شعر يبتل.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 358,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "تحدي التفكير: ما الشهر الذي يحتوي على 28 يوماً؟",
+    "answers": [
+      "كل الشهور"
+    ],
+    "hint": "كل شهر فيه 28 يوماً على الأقل.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 359,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "تحدي التفكير: إذا تجاوزت صاحب المركز الثاني في سباق، فما مركزك؟",
+    "answers": [
+      "الثاني"
+    ],
+    "hint": "تأخذ مكان من تجاوزته.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 360,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "تحدي التفكير: كم مرة تستطيع طرح الرقم 5 من 25؟",
+    "answers": [
+      "مرة واحدة"
+    ],
+    "hint": "بعد أول طرح يصبح العدد 20.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 361,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "ركز جيداً: أم أحمد لديها أربعة أبناء: شمال وجنوب وشرق، فما اسم الرابع؟",
+    "answers": [
+      "أحمد"
+    ],
+    "hint": "الاسم موجود في بداية اللغز.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 362,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "ركز جيداً: رجل خرج تحت المطر بلا مظلة ولم تبتل شعرة من رأسه، لماذا؟",
+    "answers": [
+      "أصلع"
+    ],
+    "hint": "ليس لديه شعر يبتل.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 363,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "ركز جيداً: ما الشهر الذي يحتوي على 28 يوماً؟",
+    "answers": [
+      "كل الشهور"
+    ],
+    "hint": "كل شهر فيه 28 يوماً على الأقل.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 364,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "ركز جيداً: إذا تجاوزت صاحب المركز الثاني في سباق، فما مركزك؟",
+    "answers": [
+      "الثاني"
+    ],
+    "hint": "تأخذ مكان من تجاوزته.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 365,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "ركز جيداً: كم مرة تستطيع طرح الرقم 5 من 25؟",
+    "answers": [
+      "مرة واحدة"
+    ],
+    "hint": "بعد أول طرح يصبح العدد 20.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 366,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "سؤال المرحلة: أم أحمد لديها أربعة أبناء: شمال وجنوب وشرق، فما اسم الرابع؟",
+    "answers": [
+      "أحمد"
+    ],
+    "hint": "الاسم موجود في بداية اللغز.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 367,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "سؤال المرحلة: رجل خرج تحت المطر بلا مظلة ولم تبتل شعرة من رأسه، لماذا؟",
+    "answers": [
+      "أصلع"
+    ],
+    "hint": "ليس لديه شعر يبتل.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 368,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "سؤال المرحلة: ما الشهر الذي يحتوي على 28 يوماً؟",
+    "answers": [
+      "كل الشهور"
+    ],
+    "hint": "كل شهر فيه 28 يوماً على الأقل.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 369,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "سؤال المرحلة: إذا تجاوزت صاحب المركز الثاني في سباق، فما مركزك؟",
+    "answers": [
+      "الثاني"
+    ],
+    "hint": "تأخذ مكان من تجاوزته.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 370,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "سؤال المرحلة: كم مرة تستطيع طرح الرقم 5 من 25؟",
+    "answers": [
+      "مرة واحدة"
+    ],
+    "hint": "بعد أول طرح يصبح العدد 20.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 371,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "اختبر ذكاءك: أم أحمد لديها أربعة أبناء: شمال وجنوب وشرق، فما اسم الرابع؟",
+    "answers": [
+      "أحمد"
+    ],
+    "hint": "الاسم موجود في بداية اللغز.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 372,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "اختبر ذكاءك: رجل خرج تحت المطر بلا مظلة ولم تبتل شعرة من رأسه، لماذا؟",
+    "answers": [
+      "أصلع"
+    ],
+    "hint": "ليس لديه شعر يبتل.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 373,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "اختبر ذكاءك: ما الشهر الذي يحتوي على 28 يوماً؟",
+    "answers": [
+      "كل الشهور"
+    ],
+    "hint": "كل شهر فيه 28 يوماً على الأقل.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 374,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "اختبر ذكاءك: إذا تجاوزت صاحب المركز الثاني في سباق، فما مركزك؟",
+    "answers": [
+      "الثاني"
+    ],
+    "hint": "تأخذ مكان من تجاوزته.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 375,
+    "category": "ألغاز عامة",
+    "difficulty": "صعب",
+    "question": "اختبر ذكاءك: كم مرة تستطيع طرح الرقم 5 من 25؟",
+    "answers": [
+      "مرة واحدة"
+    ],
+    "hint": "بعد أول طرح يصبح العدد 20.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 376,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "لغز: لديك عود ثقاب واحد ودخلت غرفة فيها شمعة ومصباح ومدفأة، ماذا تشعل أولاً؟",
+    "answers": [
+      "عود الثقاب"
+    ],
+    "hint": "لا يمكنك إشعال شيء قبله.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 377,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "لغز: ما العدد الذي إذا قلبته أصبح أكبر؟",
+    "answers": [
+      "6"
+    ],
+    "hint": "عند قلبه يصبح 9.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 378,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "لغز: شيئان لا يمكنك تناولهما على الفطور، ما هما؟",
+    "answers": [
+      "الغداء والعشاء"
+    ],
+    "hint": "ليسا وجبتي فطور.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 379,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "لغز: أين يأتي الخميس قبل الأربعاء؟",
+    "answers": [
+      "القاموس"
+    ],
+    "hint": "في ترتيب الكلمات أبجدياً.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 380,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "لغز: ما السؤال الذي تختلف إجابته دائماً؟",
+    "answers": [
+      "كم الساعة؟"
+    ],
+    "hint": "تتغير الإجابة مع الوقت.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 381,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "تحدي التفكير: لديك عود ثقاب واحد ودخلت غرفة فيها شمعة ومصباح ومدفأة، ماذا تشعل أولاً؟",
+    "answers": [
+      "عود الثقاب"
+    ],
+    "hint": "لا يمكنك إشعال شيء قبله.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 382,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "تحدي التفكير: ما العدد الذي إذا قلبته أصبح أكبر؟",
+    "answers": [
+      "6"
+    ],
+    "hint": "عند قلبه يصبح 9.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 383,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "تحدي التفكير: شيئان لا يمكنك تناولهما على الفطور، ما هما؟",
+    "answers": [
+      "الغداء والعشاء"
+    ],
+    "hint": "ليسا وجبتي فطور.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 384,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "تحدي التفكير: أين يأتي الخميس قبل الأربعاء؟",
+    "answers": [
+      "القاموس"
+    ],
+    "hint": "في ترتيب الكلمات أبجدياً.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 385,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "تحدي التفكير: ما السؤال الذي تختلف إجابته دائماً؟",
+    "answers": [
+      "كم الساعة؟"
+    ],
+    "hint": "تتغير الإجابة مع الوقت.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 386,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "ركز جيداً: لديك عود ثقاب واحد ودخلت غرفة فيها شمعة ومصباح ومدفأة، ماذا تشعل أولاً؟",
+    "answers": [
+      "عود الثقاب"
+    ],
+    "hint": "لا يمكنك إشعال شيء قبله.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 387,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "ركز جيداً: ما العدد الذي إذا قلبته أصبح أكبر؟",
+    "answers": [
+      "6"
+    ],
+    "hint": "عند قلبه يصبح 9.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 388,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "ركز جيداً: شيئان لا يمكنك تناولهما على الفطور، ما هما؟",
+    "answers": [
+      "الغداء والعشاء"
+    ],
+    "hint": "ليسا وجبتي فطور.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 389,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "ركز جيداً: أين يأتي الخميس قبل الأربعاء؟",
+    "answers": [
+      "القاموس"
+    ],
+    "hint": "في ترتيب الكلمات أبجدياً.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 390,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "ركز جيداً: ما السؤال الذي تختلف إجابته دائماً؟",
+    "answers": [
+      "كم الساعة؟"
+    ],
+    "hint": "تتغير الإجابة مع الوقت.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 391,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "سؤال المرحلة: لديك عود ثقاب واحد ودخلت غرفة فيها شمعة ومصباح ومدفأة، ماذا تشعل أولاً؟",
+    "answers": [
+      "عود الثقاب"
+    ],
+    "hint": "لا يمكنك إشعال شيء قبله.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 392,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "سؤال المرحلة: ما العدد الذي إذا قلبته أصبح أكبر؟",
+    "answers": [
+      "6"
+    ],
+    "hint": "عند قلبه يصبح 9.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 393,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "سؤال المرحلة: شيئان لا يمكنك تناولهما على الفطور، ما هما؟",
+    "answers": [
+      "الغداء والعشاء"
+    ],
+    "hint": "ليسا وجبتي فطور.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 394,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "سؤال المرحلة: أين يأتي الخميس قبل الأربعاء؟",
+    "answers": [
+      "القاموس"
+    ],
+    "hint": "في ترتيب الكلمات أبجدياً.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 395,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "سؤال المرحلة: ما السؤال الذي تختلف إجابته دائماً؟",
+    "answers": [
+      "كم الساعة؟"
+    ],
+    "hint": "تتغير الإجابة مع الوقت.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 396,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "اختبر ذكاءك: لديك عود ثقاب واحد ودخلت غرفة فيها شمعة ومصباح ومدفأة، ماذا تشعل أولاً؟",
+    "answers": [
+      "عود الثقاب"
+    ],
+    "hint": "لا يمكنك إشعال شيء قبله.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 397,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "اختبر ذكاءك: ما العدد الذي إذا قلبته أصبح أكبر؟",
+    "answers": [
+      "6"
+    ],
+    "hint": "عند قلبه يصبح 9.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 398,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "اختبر ذكاءك: شيئان لا يمكنك تناولهما على الفطور، ما هما؟",
+    "answers": [
+      "الغداء والعشاء"
+    ],
+    "hint": "ليسا وجبتي فطور.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 399,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "اختبر ذكاءك: أين يأتي الخميس قبل الأربعاء؟",
+    "answers": [
+      "القاموس"
+    ],
+    "hint": "في ترتيب الكلمات أبجدياً.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 400,
+    "category": "ألغاز عامة",
+    "difficulty": "مستحيل",
+    "question": "اختبر ذكاءك: ما السؤال الذي تختلف إجابته دائماً؟",
+    "answers": [
+      "كم الساعة؟"
+    ],
+    "hint": "تتغير الإجابة مع الوقت.",
+    "explanation": "فكر في صياغة السؤال بعناية."
+  },
+  {
+    "id": 401,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 2، 4، 6، ؟",
+    "answers": [
+      "8"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 402,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 2، 4، 6، ؟",
+    "answers": [
+      "8"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 403,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 3، 9، 16، ؟",
+    "answers": [
+      "25"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 404,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 2, 3, 5, 8, ؟",
+    "answers": [
+      "12"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 405,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 3، 6، 9، ؟",
+    "answers": [
+      "12"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 406,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 3، 6، 9، ؟",
+    "answers": [
+      "12"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 407,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 4، 16، 25، ؟",
+    "answers": [
+      "36"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 408,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 3, 4, 6, 9, ؟",
+    "answers": [
+      "13"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 409,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 4، 8، 12، ؟",
+    "answers": [
+      "16"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 410,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 4، 8، 12، ؟",
+    "answers": [
+      "16"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 411,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 5، 25، 36، ؟",
+    "answers": [
+      "49"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 412,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 4, 5, 7, 10, ؟",
+    "answers": [
+      "14"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 413,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 5، 10، 15، ؟",
+    "answers": [
+      "20"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 414,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 5، 10، 15، ؟",
+    "answers": [
+      "20"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 415,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 6، 36، 49، ؟",
+    "answers": [
+      "64"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 416,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 5, 6, 8, 11, ؟",
+    "answers": [
+      "15"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 417,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 6، 12، 18، ؟",
+    "answers": [
+      "24"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 418,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 6، 12، 18، ؟",
+    "answers": [
+      "24"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 419,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 7، 49، 64، ؟",
+    "answers": [
+      "81"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 420,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 6, 7, 9, 12, ؟",
+    "answers": [
+      "16"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 421,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 7، 14، 21، ؟",
+    "answers": [
+      "28"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 422,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 7، 14، 21، ؟",
+    "answers": [
+      "28"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 423,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 8، 64، 81، ؟",
+    "answers": [
+      "100"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 424,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 7, 8, 10, 13, ؟",
+    "answers": [
+      "17"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 425,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 8، 16، 24، ؟",
+    "answers": [
+      "32"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 426,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 8، 16، 24، ؟",
+    "answers": [
+      "32"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 427,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 9، 81، 100، ؟",
+    "answers": [
+      "121"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 428,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 8, 9, 11, 14, ؟",
+    "answers": [
+      "18"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 429,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 9، 18، 27، ؟",
+    "answers": [
+      "36"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 430,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 9، 18، 27، ؟",
+    "answers": [
+      "36"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 431,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 10، 100، 121، ؟",
+    "answers": [
+      "144"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 432,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 9, 10, 12, 15, ؟",
+    "answers": [
+      "19"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 433,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 10، 12، 14، ؟",
+    "answers": [
+      "16"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 434,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 10، 20، 30، ؟",
+    "answers": [
+      "40"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 435,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 11، 121، 144، ؟",
+    "answers": [
+      "169"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 436,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 10, 11, 13, 16, ؟",
+    "answers": [
+      "20"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 437,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 11، 14، 17، ؟",
+    "answers": [
+      "20"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 438,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 11، 22، 33، ؟",
+    "answers": [
+      "44"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 439,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 12، 144، 169، ؟",
+    "answers": [
+      "196"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 440,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 11, 12, 14, 17, ؟",
+    "answers": [
+      "21"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 441,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 12، 16، 20، ؟",
+    "answers": [
+      "24"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 442,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 12، 24، 36، ؟",
+    "answers": [
+      "48"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 443,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 13، 169، 196، ؟",
+    "answers": [
+      "225"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 444,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 12, 13, 15, 18, ؟",
+    "answers": [
+      "22"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 445,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 13، 18، 23، ؟",
+    "answers": [
+      "28"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 446,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 13، 26، 39، ؟",
+    "answers": [
+      "52"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 447,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 14، 196، 225، ؟",
+    "answers": [
+      "256"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 448,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 13, 14, 16, 19, ؟",
+    "answers": [
+      "23"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 449,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 14، 20، 26، ؟",
+    "answers": [
+      "32"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 450,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 14، 28، 42، ؟",
+    "answers": [
+      "56"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 451,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 15، 225، 256، ؟",
+    "answers": [
+      "289"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 452,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 14, 15, 17, 20, ؟",
+    "answers": [
+      "24"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 453,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 15، 22، 29، ؟",
+    "answers": [
+      "36"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 454,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 15، 30، 45، ؟",
+    "answers": [
+      "60"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 455,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 16، 256، 289، ؟",
+    "answers": [
+      "324"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 456,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 15, 16, 18, 21, ؟",
+    "answers": [
+      "25"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 457,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 16، 24، 32، ؟",
+    "answers": [
+      "40"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 458,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 16، 32، 48، ؟",
+    "answers": [
+      "64"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 459,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 17، 289، 324، ؟",
+    "answers": [
+      "361"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 460,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 16, 17, 19, 22, ؟",
+    "answers": [
+      "26"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 461,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 17، 26، 35، ؟",
+    "answers": [
+      "44"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 462,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 17، 34، 51، ؟",
+    "answers": [
+      "68"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 463,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 18، 324، 361، ؟",
+    "answers": [
+      "400"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 464,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 17, 18, 20, 23, ؟",
+    "answers": [
+      "27"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 465,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 18، 20، 22، ؟",
+    "answers": [
+      "24"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 466,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 18، 36، 54، ؟",
+    "answers": [
+      "72"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 467,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 19، 361، 400، ؟",
+    "answers": [
+      "441"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 468,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 18, 19, 21, 24, ؟",
+    "answers": [
+      "28"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 469,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 19، 22، 25، ؟",
+    "answers": [
+      "28"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 470,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 19، 38، 57، ؟",
+    "answers": [
+      "76"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 471,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 20، 400، 441، ؟",
+    "answers": [
+      "484"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 472,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 19, 20, 22, 25, ؟",
+    "answers": [
+      "29"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 473,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 20، 24، 28، ؟",
+    "answers": [
+      "32"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 474,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 20، 40، 60، ؟",
+    "answers": [
+      "80"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 475,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 21، 441، 484، ؟",
+    "answers": [
+      "529"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 476,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 20, 21, 23, 26, ؟",
+    "answers": [
+      "30"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 477,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 21، 26، 31، ؟",
+    "answers": [
+      "36"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 478,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 21، 42، 63، ؟",
+    "answers": [
+      "84"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 479,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 22، 484، 529، ؟",
+    "answers": [
+      "576"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 480,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 21, 22, 24, 27, ؟",
+    "answers": [
+      "31"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 481,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 22، 28، 34، ؟",
+    "answers": [
+      "40"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 482,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 22، 44، 66، ؟",
+    "answers": [
+      "88"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 483,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 23، 529، 576، ؟",
+    "answers": [
+      "625"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 484,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 22, 23, 25, 28, ؟",
+    "answers": [
+      "32"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 485,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 23، 30، 37، ؟",
+    "answers": [
+      "44"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 486,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 23، 46، 69، ؟",
+    "answers": [
+      "92"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 487,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 24، 576، 625، ؟",
+    "answers": [
+      "676"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 488,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 23, 24, 26, 29, ؟",
+    "answers": [
+      "33"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 489,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 24، 32، 40، ؟",
+    "answers": [
+      "48"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 490,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 24، 48، 72، ؟",
+    "answers": [
+      "96"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 491,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 25، 625، 676، ؟",
+    "answers": [
+      "729"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 492,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 24, 25, 27, 30, ؟",
+    "answers": [
+      "34"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 493,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 25، 34، 43، ؟",
+    "answers": [
+      "52"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 494,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 25، 50، 75، ؟",
+    "answers": [
+      "100"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 495,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 26، 676، 729، ؟",
+    "answers": [
+      "784"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 496,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 25, 26, 28, 31, ؟",
+    "answers": [
+      "35"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 497,
+    "category": "أنماط وأرقام",
+    "difficulty": "سهل",
+    "question": "أكمل المتتالية: 26، 28، 30، ؟",
+    "answers": [
+      "32"
+    ],
+    "hint": "أضف الفرق نفسه كل مرة.",
+    "explanation": ""
+  },
+  {
+    "id": 498,
+    "category": "أنماط وأرقام",
+    "difficulty": "متوسط",
+    "question": "أكمل النمط: 26، 52، 78، ؟",
+    "answers": [
+      "104"
+    ],
+    "hint": "الأعداد مضاعفات العدد نفسه.",
+    "explanation": ""
+  },
+  {
+    "id": 499,
+    "category": "أنماط وأرقام",
+    "difficulty": "صعب",
+    "question": "ما العدد التالي: 27، 729، 784، ؟",
+    "answers": [
+      "841"
+    ],
+    "hint": "لاحظ أنها مربعات أعداد متتالية.",
+    "explanation": ""
+  },
+  {
+    "id": 500,
+    "category": "أنماط وأرقام",
+    "difficulty": "مستحيل",
+    "question": "ما العدد الناقص: 26, 27, 29, 32, ؟",
+    "answers": [
+      "36"
+    ],
+    "hint": "الفروق تزيد واحداً كل مرة.",
+    "explanation": ""
+  }
+]
